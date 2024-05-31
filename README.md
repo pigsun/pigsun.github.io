@@ -6,7 +6,7 @@
 
 - `PermGen space` 则是 HotSpot 虚拟机基于《 JVM 规范》 对 `方法区` 的一个落地实现。
 
-- 针对 HotSpot 虚拟机 ，
+- 针对 HotSpot 虚拟，
   JDK7及之前， `PermGen space` 就是 方法区。
   [JDK8](https://so.csdn.net/so/search?q=JDK8&spm=1001.2101.3001.7020)及之后， `PermGen space` 被移除， 换成 `Metaspace`（元空间），也是对 `方法区` 的新的实现
 
