@@ -71,6 +71,45 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-test" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2026/02/20/test/" class="article-date">
+  <time class="dt-published" datetime="2026-02-20T12:01:57.000Z" itemprop="datePublished">2026-02-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2026/02/20/test/">test</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <img src="/2026/02/20/test/image-20240709165101771.png" class="" title="image-20240709165101771">
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2026/02/20/test/" data-id="cuidwH2tFZLARYUAMvDYHv_tk" data-title="test" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-java" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2026/02/20/java/" class="article-date">
@@ -106,7 +145,7 @@
 
 <figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--</span></span><br><span class="line"><span class="comment">	设置打包方式 默认为jar包 (聚合工程pom表示不是一个具体包，管理子项目)</span></span><br><span class="line"><span class="comment"> &lt;packaging&gt;war&lt;/packaging&gt;</span></span><br><span class="line"><span class="comment">--&gt;</span></span><br></pre></td></tr></table></figure>
 
-<img src="C:\Users\20916\AppData\Roaming\Typora\typora-user-images\image-20240320203509201.png" alt="image-20240320203509201" style="zoom:50%;" />
+<img src="/2026/02/20/java/image-20240320203509201.png" class="" title="image-20240320203509201">
 
 <h2 id="依赖传递"><a href="#依赖传递" class="headerlink" title="依赖传递"></a>依赖传递</h2><p>​	作用访问是provided和test不会传递</p>
 <p>​	</p>
@@ -141,13 +180,16 @@
 <p>​				</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">    <span class="comment">//反射创建对像</span></span><br><span class="line">    <span class="meta">@Test</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">testUserproject1</span><span class="params">()</span> <span class="keyword">throws</span> Exception &#123;</span><br><span class="line">        <span class="comment">//获取类的字节码文件</span></span><br><span class="line">        Class&lt;?&gt; clazz=Class.forName(<span class="string">&quot;com.llc.User&quot;</span>);</span><br><span class="line">        <span class="comment">//调用方法出创建对象</span></span><br><span class="line"><span class="comment">//        Object o=clazz.newInstance();</span></span><br><span class="line">        <span class="type">User</span> <span class="variable">user</span> <span class="operator">=</span> (User) clazz.getDeclaredConstructor().newInstance();</span><br><span class="line">        System.out.println(user);</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
 
-<h1 id="postman"><a href="#postman" class="headerlink" title="postman"></a>postman</h1><h2 id="请求和响应"><a href="#请求和响应" class="headerlink" title="请求和响应"></a>请求和响应</h2><h3 id="1-简单参数"><a href="#1-简单参数" class="headerlink" title="1 简单参数					"></a>1 简单参数					<img src="C:\Users\20916\AppData\Roaming\Typora\typora-user-images\image-20240709155621709.png" alt="image-20240709155621709"></h3><h3 id="2-实体参数"><a href="#2-实体参数" class="headerlink" title="2 实体参数"></a>2 实体参数</h3><p><img src="C:\Users\20916\AppData\Roaming\Typora\typora-user-images\image-20240709162157482.png" alt="image-20240709162157482"></p>
-<h3 id="3数组集合参数"><a href="#3数组集合参数" class="headerlink" title="3数组集合参数"></a>3数组集合参数</h3><p><img src="C:\Users\20916\AppData\Roaming\Typora\typora-user-images\image-20240709165101771.png" alt="image-20240709165101771"></p>
+<h1 id="postman"><a href="#postman" class="headerlink" title="postman"></a>postman</h1><h2 id="请求和响应"><a href="#请求和响应" class="headerlink" title="请求和响应"></a>请求和响应</h2><h3 id="1-简单参数"><a href="#1-简单参数" class="headerlink" title="1 简单参数"></a>1 简单参数</h3><img src="/2026/02/20/java/image-20240709155621709.png" class="" title="image-20240709155621709">
+
+<h3 id="2-实体参数"><a href="#2-实体参数" class="headerlink" title="2 实体参数"></a>2 实体参数</h3><img src="/2026/02/20/java/image-20240709162157482.png" class="" title="image-20240709162157482">
+
+<h3 id="3数组集合参数"><a href="#3数组集合参数" class="headerlink" title="3数组集合参数"></a>3数组集合参数</h3><img src="/2026/02/20/java/image-20240709165101771.png" class="" title="image-20240709165101771">
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2026/02/20/java/" data-id="cuid73mgphLKne-CQ3M9kI0dO" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="http://example.com/2026/02/20/java/" data-id="cuidF6-CSY3JLeLnWPcr2GR-M" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
@@ -198,7 +240,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2026/02/20/hello-world/" data-id="cuidFsik3xKyEa_bFENUqKK4K" data-title="Hello World" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="http://example.com/2026/02/20/hello-world/" data-id="cuidzh6TCsTdPz-pwGdJGKTI_" data-title="Hello World" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
@@ -239,6 +281,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2026/02/20/test/">test</a>
+          </li>
         
           <li>
             <a href="/2026/02/20/java/">(no title)</a>
