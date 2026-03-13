@@ -7,7 +7,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://pigsun.github.io/img/butterfly-icon.png">
 <meta property="article:published_time" content="2026-02-20T14:17:33.000Z">
-<meta property="article:modified_time" content="2026-03-08T09:02:45.636Z">
+<meta property="article:modified_time" content="2026-03-13T07:07:29.728Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://pigsun.github.io/img/butterfly-icon.png"><script type="application/ld+json">{
@@ -17,7 +17,7 @@
   "url": "https://pigsun.github.io/2026/02/20/java/",
   "image": "https://pigsun.github.io/img/butterfly-icon.png",
   "datePublished": "2026-02-20T14:17:33.000Z",
-  "dateModified": "2026-03-08T09:02:45.636Z",
+  "dateModified": "2026-03-13T07:07:29.728Z",
   "author": [
     {
       "@type": "Person",
@@ -158,7 +158,7 @@
   isHighlightShrink: false,
   isToc: true,
   pageType: 'post'
-}</script><meta name="generator" content="Hexo 8.1.1"></head><body><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">Hexo</span></a><a class="nav-page-title" href="/"><span class="site-name">Java</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  Back to Home</span></span></a></span><div id="menus"></div></nav><div id="post-info"><h1 class="post-title">Java</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2026-02-20T14:17:33.000Z" title="Created 2026-02-20 22:17:33">2026-02-20</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2026-03-08T09:02:45.636Z" title="Updated 2026-03-08 17:02:45">2026-03-08</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post Views:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h1 id="类变量"><a href="#类变量" class="headerlink" title="类变量"></a>类变量</h1><h1 id="方法区、永久代、元空间的区别"><a href="#方法区、永久代、元空间的区别" class="headerlink" title="方法区、永久代、元空间的区别"></a>方法区、永久代、元空间的区别</h1><ul>
+}</script><meta name="generator" content="Hexo 8.1.1"></head><body><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">Hexo</span></a><a class="nav-page-title" href="/"><span class="site-name">Java</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  Back to Home</span></span></a></span><div id="menus"></div></nav><div id="post-info"><h1 class="post-title">Java</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2026-02-20T14:17:33.000Z" title="Created 2026-02-20 22:17:33">2026-02-20</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2026-03-13T07:07:29.728Z" title="Updated 2026-03-13 15:07:29">2026-03-13</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post Views:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h1 id="类变量"><a href="#类变量" class="headerlink" title="类变量"></a>类变量</h1><h1 id="方法区、永久代、元空间的区别"><a href="#方法区、永久代、元空间的区别" class="headerlink" title="方法区、永久代、元空间的区别"></a>方法区、永久代、元空间的区别</h1><ul>
 <li><p>方法区， 是 《JVM 规范》 定义的，所有虚拟机必须有的。</p>
 </li>
 <li><p><code>PermGen space</code> 则是 HotSpot 虚拟机基于《 JVM 规范》 对 <code>方法区</code> 的一个落地实现。</p>
@@ -742,4 +742,1000 @@
 <li><strong><code>@RequiredArgsConstructor</code></strong> 是现代 Java 开发的<strong>最佳实践</strong>，它提供了最高的安全性和可维护性，是强烈推荐的方式。</li>
 </ul>
 <p>在你的项目中，如果已经引入了 Lombok，建议优先使用 <code>@RequiredArgsConstructor</code>。</p>
-</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>Author: </span><span class="post-copyright-info"><a href="https://pigsun.github.io">John Doe</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>Link: </span><span class="post-copyright-info"><a href="https://pigsun.github.io/2026/02/20/java/">https://pigsun.github.io/2026/02/20/java/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>Copyright Notice: </span><span class="post-copyright-info">All articles on this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless otherwise stated.</span></div></div><div class="tag_share"><div class="post-share"><div class="social-share" data-image="/img/butterfly-icon.png" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/2026/02/21/%E7%A7%92%E6%9D%80%E7%B3%BB%E7%BB%9F30%E5%A4%A9%E5%BC%80%E5%8F%91%E8%AE%A1%E5%88%92/" title="秒杀系统30天开发计划"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info"><div class="info-1"><div class="info-item-1">Previous</div><div class="info-item-2">秒杀系统30天开发计划</div></div><div class="info-2"><div class="info-item-1">秒杀系统30天开发计划📋 计划评估与优化建议✅ 计划的优点 时间分配合理 - 30天分5个阶段，循序渐进 目标明确 - 每个阶段都有清晰的产出 技术栈经典 - SpringBoot + Redis + MySQL 是标配 重点突出 - 聚焦并发控制和性能优化  ⚠️ 需要注意的点 Day 1-5 基础回炉可能时间不够 - 建议压缩到3天 缺少分布式锁的具体实现 - 这是面试高频点 消息队列削峰 - 建议加入RabbitMQ&#x2F;Kafka 监控和可观测性 - 可以加入简单的监控   🎯 优化后的30天计划阶段1：基础回炉（Day 1~3） ⏰压缩到3天，更聚焦    天数 核心任务 具体内容    Day 1 Java核心 HashMap、ConcurrentHashMap、线程安全集合   Day 2 并发基础 synchronized、volatile、CAS、AQS原理   Day 3 线程池 ThreadPoolExecutor参数、拒绝策略、手写简单线程池   每天额外：1-2道算法题（链表、数组）  阶段2：项目框架搭建（Day 4~8） 🏗️目标：完整的...</div></div></div></a><a class="pagination-related" href="/2026/02/20/diary/" title="diary"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">Next</div><div class="info-item-2">diary</div></div><div class="info-2"><div class="info-item-1">从零搭建个人博客：Hexo + GitHub Pages 的实践与思考一、为什么选择 Hexo？我最终选择了 Hexo + GitHub Pages 作为博客方案，核心原因有三：  成本为 0（GitHub Pages 免费托管） 纯静态部署，无服务器维护压力 Markdown 驱动，专注内容本身  从技术本质来看，这是一个典型的 SSG（Static Site Generator）架构流程： 123456789Markdown 文件      ↓Hexo 渲染引擎      ↓主题模板渲染      ↓生成静态 HTML      ↓GitHub Pages 托管  Hexo 本质是一个基于 Node.js 的静态网站生成器。 Markdown 文件经过渲染引擎转换为 HTML，再通过主题模板进行结构化封装，最终生成完整网页。 这次搭建让我第一次真正理解了“静态网站生成”的底层逻辑。 二、搭建过程中遇到的关键问题1️⃣ Node 与 Hexo 版本兼容问题问题表现安装 Hexo CLI 后执行命令报错，依赖冲突无法正常运行。 根本原因Hexo 某些依赖对 Node 版本存在要求...</div></div></div></a></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">John Doe</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Contents</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%B1%BB%E5%8F%98%E9%87%8F"><span class="toc-number">1.</span> <span class="toc-text">类变量</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%96%B9%E6%B3%95%E5%8C%BA%E3%80%81%E6%B0%B8%E4%B9%85%E4%BB%A3%E3%80%81%E5%85%83%E7%A9%BA%E9%97%B4%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="toc-number">2.</span> <span class="toc-text">方法区、永久代、元空间的区别</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%BC%82%E5%B8%B8"><span class="toc-number">3.</span> <span class="toc-text">异常</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A4%84%E7%90%86NullPointerException"><span class="toc-number">3.1.</span> <span class="toc-text">处理NullPointerException</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%96%AD%E8%A8%80"><span class="toc-number">3.2.</span> <span class="toc-text">断言</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#jdk8%E5%92%8Cjdk9%E6%96%B0%E7%89%B9%E6%80%A7"><span class="toc-number">4.</span> <span class="toc-text">jdk8和jdk9新特性</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8F%8D%E5%B0%84"><span class="toc-number">5.</span> <span class="toc-text">反射</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%8D%E5%B0%84%E6%98%AF%E6%A1%86%E6%9E%B6%E8%AE%BE%E8%AE%A1%E7%9A%84%E7%81%B5%E9%AD%82"><span class="toc-number">5.1.</span> <span class="toc-text">反射是框架设计的灵魂</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Maven"><span class="toc-number">6.</span> <span class="toc-text">Maven</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E9%85%8D%E7%BD%AE%E6%9C%AC%E5%B7%A5%E7%A8%8B%E5%9D%90%E6%A0%87%E4%BF%A1%E6%81%AF"><span class="toc-number">6.1.</span> <span class="toc-text">如何配置本工程坐标信息</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BE%9D%E8%B5%96%E4%BC%A0%E9%80%92"><span class="toc-number">6.2.</span> <span class="toc-text">依赖传递</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%81%9A%E5%90%88%E5%B7%A5%E7%A8%8B"><span class="toc-number">6.3.</span> <span class="toc-text">聚合工程</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#maven%E7%BB%A7%E6%89%BF"><span class="toc-number">6.4.</span> <span class="toc-text">maven继承</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%89%88%E6%9C%AC%E7%BB%9F%E4%B8%80%E7%AE%A1%E7%90%86"><span class="toc-number">6.5.</span> <span class="toc-text">版本统一管理</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Spring"><span class="toc-number">7.</span> <span class="toc-text">Spring</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9C%A8resource%E4%B8%AD%E9%80%9A%E8%BF%87xml%E6%96%87%E4%BB%B6%E5%88%9B%E5%BB%BA%E5%AF%B9%E8%B1%A1%E5%8F%8A%E5%85%B6%E5%88%86%E6%9E%90"><span class="toc-number">7.1.</span> <span class="toc-text">在resource中通过xml文件创建对象及其分析</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%86%E6%9E%90"><span class="toc-number">7.1.1.</span> <span class="toc-text">分析</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#postman"><span class="toc-number">8.</span> <span class="toc-text">postman</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AF%B7%E6%B1%82%E5%92%8C%E5%93%8D%E5%BA%94"><span class="toc-number">8.1.</span> <span class="toc-text">请求和响应</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E7%AE%80%E5%8D%95%E5%8F%82%E6%95%B0"><span class="toc-number">8.1.1.</span> <span class="toc-text">1 简单参数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E5%AE%9E%E4%BD%93%E5%8F%82%E6%95%B0"><span class="toc-number">8.1.2.</span> <span class="toc-text">2 实体参数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3%E6%95%B0%E7%BB%84%E9%9B%86%E5%90%88%E5%8F%82%E6%95%B0"><span class="toc-number">8.1.3.</span> <span class="toc-text">3数组集合参数</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#JavaSE"><span class="toc-number">9.</span> <span class="toc-text">JavaSE</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Java%E7%9A%84char%E9%87%87%E7%94%A8Unicode%E7%BC%96%E7%A0%81%E8%A1%A8%EF%BC%88%E4%B8%8D%E6%98%AFASCII%E7%BC%96%E7%A0%81%EF%BC%81%EF%BC%89"><span class="toc-number">9.1.</span> <span class="toc-text">Java的char采用Unicode编码表（不是ASCII编码！）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2"><span class="toc-number">9.2.</span> <span class="toc-text">数据类型转换</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9A%90%E5%BD%A2%E8%BD%AC%E6%8D%A2"><span class="toc-number">9.2.1.</span> <span class="toc-text">隐形转换</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%98%BE%E6%80%A7%E8%BD%AC%E6%8D%A2"><span class="toc-number">9.2.2.</span> <span class="toc-text">显性转换</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%87%AA%E5%8A%A8%E6%8F%90%E5%8D%87"><span class="toc-number">9.3.</span> <span class="toc-text">数据类型自动提升</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%B1%BB%E5%8A%A0%E8%BD%BD%E6%9C%BA%E5%88%B6"><span class="toc-number">9.4.</span> <span class="toc-text">类加载机制</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B0%81%E8%A3%85%E7%BB%A7%E6%89%BF%E5%A4%9A%E6%80%81"><span class="toc-number">9.5.</span> <span class="toc-text">封装继承多态</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B0%81%E8%A3%85"><span class="toc-number">9.5.1.</span> <span class="toc-text">封装</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%A7%E6%89%BF"><span class="toc-number">9.5.2.</span> <span class="toc-text">继承</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%85%B3%E9%94%AE%E8%A6%81%E7%82%B9"><span class="toc-number">9.5.2.1.</span> <span class="toc-text">关键要点</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%9A%E6%80%81"><span class="toc-number">9.5.3.</span> <span class="toc-text">多态</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AE%9E%E7%8E%B0%E5%A4%9A%E6%80%81%E7%9A%84%E4%B8%89%E4%B8%AA%E5%BF%85%E8%A6%81%E6%9D%A1%E4%BB%B6"><span class="toc-number">9.5.3.1.</span> <span class="toc-text">实现多态的三个必要条件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%85%B3%E9%94%AE%E8%A6%81%E7%82%B9-1"><span class="toc-number">9.5.3.2.</span> <span class="toc-text">关键要点</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-number">9.5.4.</span> <span class="toc-text">总结</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#final"><span class="toc-number">9.6.</span> <span class="toc-text">final</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E4%BF%AE%E9%A5%B0%E5%8F%98%E9%87%8F-final-variable"><span class="toc-number">9.6.1.</span> <span class="toc-text">1. 修饰变量 (final variable)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E4%BF%AE%E9%A5%B0%E6%96%B9%E6%B3%95-final-method"><span class="toc-number">9.6.2.</span> <span class="toc-text">2. 修饰方法 (final method)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E4%BF%AE%E9%A5%B0%E7%B1%BB-final-class"><span class="toc-number">9.6.3.</span> <span class="toc-text">3. 修饰类 (final class)</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8A%BD%E8%B1%A1%E7%B1%BB%EF%BC%88Abstract-Class%EF%BC%89"><span class="toc-number">9.7.</span> <span class="toc-text">抽象类（Abstract Class）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%B3%E9%94%AE%E7%89%B9%E5%BE%81"><span class="toc-number">9.7.1.</span> <span class="toc-text">关键特征</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8E%A5%E5%8F%A3-Interface"><span class="toc-number">9.8.</span> <span class="toc-text">接口 (Interface)</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%B3%E9%94%AE%E7%89%B9%E5%BE%81-1"><span class="toc-number">9.8.1.</span> <span class="toc-text">关键特征</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%99%E5%BE%88%E9%87%8D%E8%A6%81%EF%BC%9F"><span class="toc-number">9.8.2.</span> <span class="toc-text">为什么这很重要？</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8C%BF%E5%90%8D%E5%86%85%E9%83%A8%E7%B1%BB"><span class="toc-number">9.9.</span> <span class="toc-text">匿名内部类</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8C%85%E8%A3%85%E7%B1%BB"><span class="toc-number">9.10.</span> <span class="toc-text">包装类</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9C%80%E8%A6%81%E5%8C%85%E8%A3%85%E7%B1%BB%EF%BC%9F"><span class="toc-number">9.10.1.</span> <span class="toc-text">为什么需要包装类？</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Java%E5%BC%82%E5%B8%B8%E6%9C%BA%E5%88%B6"><span class="toc-number">9.11.</span> <span class="toc-text">Java异常机制</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BC%82%E5%B8%B8%EF%BC%88Exception%EF%BC%89"><span class="toc-number">9.11.1.</span> <span class="toc-text">异常（Exception）</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E8%BF%90%E8%A1%8C%E6%97%B6%E5%BC%82%E5%B8%B8"><span class="toc-number">9.11.1.1.</span> <span class="toc-text">运行时异常</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E7%BC%96%E8%AF%91%E6%97%B6%E5%BC%82%E5%B8%B8"><span class="toc-number">9.11.1.2.</span> <span class="toc-text">编译时异常</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%94%99%E8%AF%AF%EF%BC%88Error%EF%BC%89"><span class="toc-number">9.11.2.</span> <span class="toc-text">错误（Error）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86"><span class="toc-number">9.11.3.</span> <span class="toc-text">异常处理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E5%BC%82%E5%B8%B8"><span class="toc-number">9.11.4.</span> <span class="toc-text">自定义异常</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%9A%E9%87%8D%E5%BC%82%E5%B8%B8%E6%8D%95%E8%8E%B7"><span class="toc-number">9.11.5.</span> <span class="toc-text">多重异常捕获</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B3%9B%E5%9E%8B"><span class="toc-number">9.12.</span> <span class="toc-text">泛型</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B1%BB%E5%9E%8B%E6%93%A6%E9%99%A4-Type-Erasure"><span class="toc-number">9.12.1.</span> <span class="toc-text">类型擦除 (Type Erasure)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B3%9B%E5%9E%8B%E7%9A%84%E4%BD%BF%E7%94%A8%E7%BB%86%E8%8A%82"><span class="toc-number">9.12.2.</span> <span class="toc-text">泛型的使用细节</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B3%9B%E5%9E%8B%E7%9A%84%E8%BE%B9%E7%95%8C-Bounds"><span class="toc-number">9.12.3.</span> <span class="toc-text">泛型的边界 (Bounds)</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-%E4%B8%8A%E7%95%8C-extends"><span class="toc-number">9.12.3.1.</span> <span class="toc-text">1. 上界 (extends)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-%E4%B8%8B%E7%95%8C-super"><span class="toc-number">9.12.3.2.</span> <span class="toc-text">2. 下界 (super)</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B3%9B%E5%9E%8B%E4%B8%8E%E5%A4%9A%E6%80%81%EF%BC%9A%E6%A1%A5%E6%8E%A5%E6%96%B9%E6%B3%95-Bridge-Methods"><span class="toc-number">9.12.4.</span> <span class="toc-text">泛型与多态：桥接方法 (Bridge Methods)</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#I-O%E6%B5%81"><span class="toc-number">9.13.</span> <span class="toc-text">I&#x2F;O流</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B0%8F%E7%BB%93%EF%BC%9A"><span class="toc-number">9.13.1.</span> <span class="toc-text">小结：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9F%BA%E7%A1%80%EF%BC%9A%E6%96%87%E4%BB%B6%E6%B5%81-File-Streams"><span class="toc-number">9.13.2.</span> <span class="toc-text">基础：文件流 (File Streams)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BD%AC%E6%8D%A2%E6%B5%81-Conversion-Streams-%E8%A7%A3%E5%86%B3%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98"><span class="toc-number">9.13.3.</span> <span class="toc-text">转换流 (Conversion Streams) - 解决编码问题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BC%93%E5%86%B2%E6%B5%81-Buffered-Streams-%E6%8F%90%E5%8D%87%E6%80%A7%E8%83%BD"><span class="toc-number">9.13.4.</span> <span class="toc-text">缓冲流 (Buffered Streams) - 提升性能</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E6%B5%81-Data-Streams-%E5%AD%98%E5%82%A8%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B"><span class="toc-number">9.13.5.</span> <span class="toc-text">数据流 (Data Streams) - 存储基本数据类型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AF%B9%E8%B1%A1%E6%B5%81-Object-Streams-%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%8E%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96"><span class="toc-number">9.13.6.</span> <span class="toc-text">对象流 (Object Streams) - 序列化与反序列化</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%89%93%E5%8D%B0%E6%B5%81-Print-Streams-%E4%BE%BF%E6%8D%B7%E8%BE%93%E5%87%BA"><span class="toc-number">9.13.7.</span> <span class="toc-text">打印流 (Print Streams) - 便捷输出</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#try-with-resources"><span class="toc-number">9.13.8.</span> <span class="toc-text">try-with-resources</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%87%AA%E5%8A%A8%E5%88%9B%E5%BB%BA%E6%9C%BA%E5%88%B6"><span class="toc-number">9.13.9.</span> <span class="toc-text">自动创建机制</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93-1"><span class="toc-number">9.13.10.</span> <span class="toc-text">总结</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Java%E5%A4%9A%E7%BA%BF%E7%A8%8B"><span class="toc-number">9.14.</span> <span class="toc-text">Java多线程</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BA%BF%E7%A8%8B%E9%94%81%E5%92%8C%E7%BA%BF%E7%A8%8B%E5%90%8C%E6%AD%A5"><span class="toc-number">9.15.</span> <span class="toc-text">线程锁和线程同步</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#ThreadLocal%E7%B1%BB"><span class="toc-number">9.15.1.</span> <span class="toc-text">ThreadLocal类</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%9D%A5%E5%88%9B%E5%BB%BA%E5%B7%A5%E4%BD%9C%E5%86%85%E5%AD%98%E4%B8%AD%E7%9A%84%E5%8F%98%E9%87%8F%EF%BC%8C%E5%AE%83%E5%B0%86%E6%88%91%E4%BB%AC%E7%9A%84%E5%8F%98%E9%87%8F%E5%80%BC%E5%AD%98%E5%82%A8%E5%9C%A8%E5%86%85%E9%83%A8%EF%BC%88%E5%8F%AA%E8%83%BD%E5%AD%98%E5%82%A8%E4%B8%80%E4%B8%AA%E5%8F%98%E9%87%8F%EF%BC%89%EF%BC%8C%E4%B8%8D%E5%90%8C%E7%9A%84%E5%8F%98%E9%87%8F%E8%AE%BF%E9%97%AE%E5%88%B0ThreadLocal%E5%AF%B9%E8%B1%A1%E6%97%B6%EF%BC%8C%E9%83%BD%E5%8F%AA%E8%83%BD%E8%8E%B7%E5%8F%96%E5%88%B0%E8%87%AA%E5%B7%B1%E7%BA%BF%E7%A8%8B%E6%89%80%E5%B1%9E%E7%9A%84%E5%8F%98%E9%87%8F%E3%80%82%E3%80%90%E6%AF%8F%E4%B8%AA%E7%BA%BF%E7%A8%8B%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%86%85%E5%AD%98%E7%A9%BA%E9%97%B4%E4%B8%8D%E5%90%8C%EF%BC%8C%E6%89%80%E4%BB%A5%E7%BA%BF%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9B%B8%E4%BA%92%E7%8B%AC%E7%AB%8B%EF%BC%8C%E4%BA%92%E4%B8%8D%E7%9B%B8%E5%85%B3%E3%80%91"><span class="toc-number">9.15.1.1.</span> <span class="toc-text">来创建工作内存中的变量，它将我们的变量值存储在内部（只能存储一个变量），不同的变量访问到ThreadLocal对象时，都只能获取到自己线程所属的变量。【每个线程的工作内存空间不同，所以线程之间相互独立，互不相关】</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#SaaS%E7%9F%AD%E9%93%BE%E6%8E%A5%E7%B3%BB%E7%BB%9F"><span class="toc-number">10.</span> <span class="toc-text">SaaS短链接系统</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A6%81%E7%82%B9%E8%AE%B0%E5%BD%95%EF%BC%9A"><span class="toc-number">10.1.</span> <span class="toc-text">要点记录：</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-Autowired-%E6%B3%A8%E8%A7%A3"><span class="toc-number">10.1.1.</span> <span class="toc-text">*1.** @Autowired **注解*</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E7%A4%BA%E4%BE%8B"><span class="toc-number">10.1.1.1.</span> <span class="toc-text">*代码示例*</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86"><span class="toc-number">10.1.1.2.</span> <span class="toc-text">*工作原理*</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BC%98%E7%82%B9"><span class="toc-number">10.1.1.3.</span> <span class="toc-text">*优点*</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BC%BA%E7%82%B9"><span class="toc-number">10.1.1.4.</span> <span class="toc-text">*缺点*</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5"><span class="toc-number">10.1.1.5.</span> <span class="toc-text">*最佳实践*</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-Resource-%E6%B3%A8%E8%A7%A3"><span class="toc-number">10.1.2.</span> <span class="toc-text">*2.** @Resource **注解*</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E7%A4%BA%E4%BE%8B-1"><span class="toc-number">10.1.2.1.</span> <span class="toc-text">*代码示例*</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86-1"><span class="toc-number">10.1.2.2.</span> <span class="toc-text">*工作原理*</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BC%98%E7%82%B9-1"><span class="toc-number">10.1.2.3.</span> <span class="toc-text">*优点*</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BC%BA%E7%82%B9-1"><span class="toc-number">10.1.2.4.</span> <span class="toc-text">*缺点*</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-1"><span class="toc-number">10.1.2.5.</span> <span class="toc-text">*最佳实践*</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-RequiredArgsConstructor-%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0%E6%B3%A8%E5%85%A5"><span class="toc-number">10.1.3.</span> <span class="toc-text">*3.** @RequiredArgsConstructor **构造函数注入*</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E7%A4%BA%E4%BE%8B-2"><span class="toc-number">10.1.3.1.</span> <span class="toc-text">*代码示例*</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86-2"><span class="toc-number">10.1.3.2.</span> <span class="toc-text">*工作原理*</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BC%98%E7%82%B9-2"><span class="toc-number">10.1.3.3.</span> <span class="toc-text">*优点*</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BC%BA%E7%82%B9-2"><span class="toc-number">10.1.3.4.</span> <span class="toc-text">*缺点*</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-2"><span class="toc-number">10.1.3.5.</span> <span class="toc-text">*最佳实践*</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93%E5%AF%B9%E6%AF%94%E8%A1%A8"><span class="toc-number">10.1.4.</span> <span class="toc-text">*总结对比表*</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%93%E8%AE%BA"><span class="toc-number">10.1.5.</span> <span class="toc-text">*结论*</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Posts</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/02/21/health/" title="健康饮食">健康饮食</a><time datetime="2026-02-21T07:27:25.000Z" title="Created 2026-02-21 15:27:25">2026-02-21</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/02/21/%E7%A7%92%E6%9D%80%E7%B3%BB%E7%BB%9F30%E5%A4%A9%E5%BC%80%E5%8F%91%E8%AE%A1%E5%88%92/" title="秒杀系统30天开发计划">秒杀系统30天开发计划</a><time datetime="2026-02-21T02:11:33.000Z" title="Created 2026-02-21 10:11:33">2026-02-21</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/02/20/diary/" title="diary">diary</a><time datetime="2026-02-20T14:17:33.000Z" title="Created 2026-02-20 22:17:33">2026-02-20</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/02/20/java/" title="Java">Java</a><time datetime="2026-02-20T14:17:33.000Z" title="Created 2026-02-20 22:17:33">2026-02-20</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/02/20/hello-world/" title="Hello World">Hello World</a><time datetime="2026-02-20T09:03:35.602Z" title="Created 2026-02-20 17:03:35">2026-02-20</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 - 2026 By John Doe</span><span class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.1</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.4</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Reading Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Toggle Between Light and Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle Between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Settings"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table of Contents"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="Back to Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.4"></script><script src="/js/main.js?v=5.5.4"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
+<h2 id="要点记录"><a href="#要点记录" class="headerlink" title="要点记录"></a>要点记录</h2><p>解析整个项目时，要按照实体类和短链接请求响应对象来解构功能模块，以及模块与其他类，例如用户信息拦截器等等功能的耦合关系和实现原理，进而总结整个项目；</p>
+<p>拦截器封装用户上下文功能，需要询问cursor着重理解</p>
+<p>修改短链接分组功能流程与拦截器封装用户上下文功能的联系<br>TTL 的核心原理：CRR 模式</p>
+<p>错误码和异常处理部分按照企业级项目来说是不是可以抽象一下</p>
+<p>全局异常拦截器拦不到布隆过滤器中抛出的异常问题</p>
+<h1 id="SaaS-短链接系统-—-简历撰写-面试问答文档"><a href="#SaaS-短链接系统-—-简历撰写-面试问答文档" class="headerlink" title="SaaS 短链接系统 — 简历撰写 &amp; 面试问答文档"></a>SaaS 短链接系统 — 简历撰写 &amp; 面试问答文档</h1><blockquote>
+<p>目标岗位：北京小厂 Java 实习<br>本文档包含：简历项目描述模板、面试高频问题及参考答案</p>
+</blockquote>
+<hr>
+<h2 id="一、简历项目描述（直接复制使用）"><a href="#一、简历项目描述（直接复制使用）" class="headerlink" title="一、简历项目描述（直接复制使用）"></a>一、简历项目描述（直接复制使用）</h2><h3 id="写法一：精简版（适合简历空间有限）"><a href="#写法一：精简版（适合简历空间有限）" class="headerlink" title="写法一：精简版（适合简历空间有限）"></a>写法一：精简版（适合简历空间有限）</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">项目名称：SaaS 短链接平台</span><br><span class="line">技术栈：Spring Boot · Spring Cloud Gateway · OpenFeign · MyBatis-Plus · </span><br><span class="line">        ShardingSphere · Redis · Redisson · Sentinel · Nacos · Vue3</span><br><span class="line">项目描述：</span><br><span class="line">  基于 Spring Cloud 微服务架构的短链接 SaaS 平台，支持短链接的创建、跳转、</span><br><span class="line">  分组管理、回收站及多维度访问统计。</span><br><span class="line">主要工作：</span><br><span class="line">  · 设计短链接跳转模块，综合运用布隆过滤器、Redis 缓存、分布式锁解决缓存</span><br><span class="line">    穿透、击穿、雪崩问题，跳转接口 P99 延迟控制在 50ms 以内</span><br><span class="line">  · 使用 Redis Stream 消息队列异步持久化访问统计数据（PV/UV/UIP、地区、</span><br><span class="line">    设备、浏览器等 8 个维度），降低跳转接口响应时间约 60%</span><br><span class="line">  · 采用 ShardingSphere 对用户表、短链接表按 username/gid 进行水平分片</span><br><span class="line">    （各 16 张），单表数据量控制在千万级以内</span><br><span class="line">  · 基于 Spring Cloud Gateway 实现统一鉴权，Token 存储于 Redis Hash，</span><br><span class="line">    网关解析后通过 Header 传递用户上下文</span><br><span class="line">  · 实现消息幂等处理器（Redis 两阶段标记），防止消费者重启导致统计重复写入</span><br></pre></td></tr></table></figure>
+
+<h3 id="写法二：详细版（适合简历有充足空间）"><a href="#写法二：详细版（适合简历有充足空间）" class="headerlink" title="写法二：详细版（适合简历有充足空间）"></a>写法二：详细版（适合简历有充足空间）</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br></pre></td><td class="code"><pre><span class="line">项目名称：SaaS 短链接平台（开源学习项目）</span><br><span class="line">项目周期：2024.xx — 2024.xx</span><br><span class="line">技术栈：Spring Boot 3 · Spring Cloud Gateway · OpenFeign · MyBatis-Plus ·</span><br><span class="line">        ShardingSphere · Redis / Redisson · Sentinel · Nacos · Vue3 · Vite</span><br><span class="line"></span><br><span class="line">项目介绍：</span><br><span class="line">  面向 SaaS 场景的短链接生成与管理平台，包含 Gateway 网关层、Admin 后台管</span><br><span class="line">  理服务、Project 短链接核心服务及 Vue3 前端，服务间通过 Nacos 注册发现、</span><br><span class="line">  OpenFeign 调用。</span><br><span class="line"></span><br><span class="line">核心贡献：</span><br><span class="line">  1. 短链接跳转高并发方案</span><br><span class="line">     · 三级防护：布隆过滤器（防穿透）→ 空值缓存（防穿透）→ Redisson 分布</span><br><span class="line">       式锁（防击穿），保证高并发下数据库安全</span><br><span class="line">     · 布隆过滤器存储全量 fullShortUrl，误判率低于 0.1%</span><br><span class="line">     · 引入 t_link_goto 路由表（以 fullShortUrl 分片），解决 t_link 以 gid</span><br><span class="line">       分片导致跳转时无法定位分片的问题</span><br><span class="line"></span><br><span class="line">  2. 异步统计架构</span><br><span class="line">     · 跳转时将统计记录写入 Redis Stream，消费者异步写入 8 张统计表，</span><br><span class="line">       跳转接口不阻塞于 IO</span><br><span class="line">     · 消费者使用 Redis setIfAbsent 实现两阶段幂等，防止重复消费</span><br><span class="line">     · 跨分组修改与统计消费之间使用 Redisson 读写锁保证 gid 一致性</span><br><span class="line"></span><br><span class="line">  3. 事务方法必须是 public，私有方法上的 @Transactional 不生效</span><br><span class="line">4. 长事务会长时间占用数据库连接，应尽量缩短事务范围</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">**G5. ⭐⭐ Redis 的哪些数据结构在项目里用到了？各用在哪里？**</span><br><span class="line"></span><br><span class="line">答：</span><br><span class="line"></span><br><span class="line">| 数据结构 | 用途 |</span><br><span class="line">|---|---|</span><br><span class="line">| String | 短链接跳转缓存（fullShortUrl → originUrl）、空值缓存、限流计数 |</span><br><span class="line">| Hash | 用户登录态存储（key=login:&#123;username&#125;, field=token, value=用户JSON） |</span><br><span class="line">| Set | UV 去重（UV_KEY:&#123;fullShortUrl&#125;）、UIP 去重（UIP_KEY:&#123;fullShortUrl&#125;） |</span><br><span class="line">| Stream | 消息队列，传递跳转统计记录 |</span><br><span class="line">| Bitmap（间接） | Redisson 布隆过滤器底层使用 Bitmap |</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">**G6. ⭐ Lombok 的常用注解有哪些？项目里用了什么？**</span><br><span class="line"></span><br><span class="line">答：</span><br><span class="line">- `@Data`：自动生成 getter/setter/equals/hashCode/toString</span><br><span class="line">- `@Builder`：生成建造者模式</span><br><span class="line">- `@RequiredArgsConstructor`：为 final 字段生成构造函数，配合 Spring 依赖注入替代 `@Autowired`（推荐方式，便于测试）</span><br><span class="line">- `@Slf4j`：自动注入 log 变量</span><br><span class="line">- `@SneakyThrows`：隐式抛出受检异常，不需要 try-catch 或 throws</span><br><span class="line"></span><br><span class="line">项目中大量使用 `@RequiredArgsConstructor` + final 字段注入依赖，这是 Spring 官方推荐的注入方式，比 `@Autowired` 字段注入更安全（不允许注入 null，便于单元测试）。</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">### 模块 H：项目亮点提炼（面试时主动说）</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">**H1. 你觉得这个项目最大的技术亮点是什么？**</span><br><span class="line"></span><br><span class="line">答（建议按此思路回答）：</span><br><span class="line"></span><br><span class="line">我认为有三个亮点：</span><br><span class="line"></span><br><span class="line">**第一是短链接跳转的高并发设计**。跳转接口通过布隆过滤器防穿透、空值缓存兜底、Redisson 分布式锁防击穿，形成了完整的缓存保护体系。同时引入了 t_link_goto 路由表解决分库分表下跳转无法携带分片键的问题，这个设计比较有深度。</span><br><span class="line"></span><br><span class="line">**第二是异步统计架构**。用 Redis Stream 解耦跳转主流程和统计写入，配合两阶段幂等处理保证统计数据不重不漏，还用读写锁解决了跨分组修改和统计消费的并发一致性问题，这条链路涉及的技术点比较多。</span><br><span class="line"></span><br><span class="line">**第三是分库分表的分片键设计**。不同的表根据业务查询模式选择不同的分片键（username/gid/fullShortUrl），同时通过路由表模式解决了因分片键限制导致的跨表查询问题。</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">**H2. 这个项目你遇到的最难的问题是什么？怎么解决的？**</span><br><span class="line"></span><br><span class="line">答（参考回答）：</span><br><span class="line"></span><br><span class="line">最难的问题是**跨分组修改短链接时的数据一致性问题**。</span><br><span class="line"></span><br><span class="line">具体情况是：t_link 以 gid 分片，修改短链接的分组时需要在新旧两个分片上操作数据（旧分片逻辑删除，新分片插入）。与此同时，Redis Stream 消费者可能正在消费这条链接的统计数据，它先查路由表拿 gid，再写统计。如果消费者查到旧 gid 后，修改操作切换了 gid，消费者就会把统计写到错误的分组下。</span><br><span class="line"></span><br><span class="line">解决方案是使用 Redisson 读写锁：修改操作持有写锁，统计消费持有读锁，两者互斥，保证消费者拿到的 gid 和最终写入的 gid 是一致的。这个问题的难点在于识别并发场景下的竞态条件。</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">**H3. 如果让你优化这个项目，你会从哪里入手？**</span><br><span class="line"></span><br><span class="line">答（体现思考深度）：</span><br><span class="line"></span><br><span class="line">1. **统计写入优化**：目前每次跳转发一条消息，消费者逐条处理。高并发时可以改为批量消费（每100ms聚合一次），减少数据库写入次数</span><br><span class="line">2. **布隆过滤器容量规划**：随着数据增长，布隆过滤器误判率会升高，需要定期监控并考虑扩容或重建策略</span><br><span class="line">3. **分组接口 N+1 问题**：查询分组列表时，先查分组再查每个分组的短链接数量，目前是一次批量查询，这点已经处理好了，但如果未来有更复杂的聚合需求需要注意</span><br><span class="line">4. **Redis 高可用**：目前配置的是单节点 Redis，生产环境需要改为 Redis Sentinel 或 Redis Cluster</span><br><span class="line">5. **网关限流**：目前限流在 Admin 服务内做，可以上移到 Gateway 层，对所有服务统一限流</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">## 三、面试官可能追问的高频问题快速答</span><br><span class="line"></span><br><span class="line">| 问题 | 一句话答 |</span><br><span class="line">|---|---|</span><br><span class="line">| 布隆过滤器误判率多少？ | 取决于容量和哈希函数数量，Redisson 默认约 3%，可配置更低 |</span><br><span class="line">| Redis 为什么快？ | 纯内存操作、单线程避免锁竞争、多路复用 I/O |</span><br><span class="line">| 什么是幂等？ | 同一操作执行多次结果和执行一次相同，消费者重试时不重复写统计 |</span><br><span class="line">| 分布式锁有哪些实现方式？ | Redis（Redisson）、ZooKeeper、数据库乐观锁，本项目用 Redisson |</span><br><span class="line">| OpenFeign 和 RestTemplate 区别？ | Feign 声明式更简洁，与 Spring MVC 风格一致，支持负载均衡 |</span><br><span class="line">| 什么是分库分表？ | 水平拆分，按分片键将数据分散到多张表，解决单表数据量过大问题 |</span><br><span class="line">| 为什么要异步？ | 解耦主流程和次要流程，降低响应延迟，提高吞吐量 |</span><br><span class="line">| Cookie 和 Session 区别？ | Cookie 存客户端，Session 存服务端；本项目用 Cookie 存 UV 标识 |</span><br><span class="line">| Spring 的 IOC 和 AOP 是什么？ | IOC 控制反转（容器管理对象），AOP 面向切面（事务、日志等横切关注点） |</span><br><span class="line">| 什么是微服务？有什么优缺点？ | 按业务拆分独立服务；优点：独立部署、技术异构；缺点：运维复杂、网络开销 |</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">## 四、简历投递建议</span><br><span class="line"></span><br><span class="line">1. **项目描述控制在 6-8 行**，用动词开头（设计/实现/优化），突出技术亮点和量化指标</span><br><span class="line">2. **技术栈按熟悉程度排序**，不熟悉的不要写（面试会被追问）</span><br><span class="line">3. **准备好 GitHub 链接或代码截图**，面试官可能要求展示代码</span><br><span class="line">4. **面试前重新看一遍源码**，尤其是 ShortLinkServiceImpl.restoreUrl()（跳转核心逻辑）和 ShortLinkStatsSaveConsumer.onMessage()（消费者核心逻辑）</span><br><span class="line">5. **主动引导面试官问你擅长的方向**：可以说「这个项目中我印象最深的是短链接跳转的缓存设计，因为...」</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">*文档生成时间：2026-03-12*  </span><br><span class="line">*祝面试顺利！*</span><br><span class="line">数据库分片</span><br><span class="line">     · 使用 ShardingSphere 对 t_user、t_group 按 username 分片，</span><br><span class="line">       对 t_link、t_link_goto 分别按 gid、fullShortUrl 分片，各 16 张表</span><br><span class="line">     · t_link 唯一索引设计为 (full_short_url, del_time)，del_time=0 表示</span><br><span class="line">       有效，支持同一短链接多次创建删除</span><br><span class="line"></span><br><span class="line">  4. 网关鉴权</span><br><span class="line">     · 自定义 GatewayFilterFactory，从 Redis Hash 验证 Token，校验通过后</span><br><span class="line">       将 userId/realName 注入下游 Header，下游通过 UserTransmitFilter</span><br><span class="line">       填充 ThreadLocal UserContext</span><br><span class="line">     · 配置白名单（登录/注册接口），其余接口强制鉴权</span><br><span class="line"></span><br><span class="line">  5. 前端（Vue3）</span><br><span class="line">     · Axios 请求拦截器自动注入 token/username Header，响应拦截器处理 401</span><br><span class="line">       自动跳转登录页</span><br><span class="line">     · 路由守卫实现全局登录态判断</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="二、面试问题与参考答案"><a href="#二、面试问题与参考答案" class="headerlink" title="二、面试问题与参考答案"></a>二、面试问题与参考答案</h2><blockquote>
+<p>共 40+ 题，按模块分类，标注难度：⭐基础 ⭐⭐中等 ⭐⭐⭐较难</p>
+</blockquote>
+<hr>
+<h3 id="模块-A：短链接跳转-缓存设计"><a href="#模块-A：短链接跳转-缓存设计" class="headerlink" title="模块 A：短链接跳转 &amp; 缓存设计"></a>模块 A：短链接跳转 &amp; 缓存设计</h3><hr>
+<p><strong>A1. ⭐ 短链接是怎么生成的？</strong></p>
+<p>答：<br>对原始 URL 拼接一个随机 UUID 后，使用 MurmurHash 算法计算哈希值，再转换为 Base62 编码（0-9a-zA-Z），截取前 6 位作为短链接后缀。之所以拼接 UUID 是为了每次生成不同的哈希输入，降低冲突概率。生成后检查布隆过滤器是否已存在，存在则重试，最多重试 10 次。</p>
+<hr>
+<p><strong>A2. ⭐⭐ 为什么选布隆过滤器而不是直接查数据库判断短链接是否重复？</strong></p>
+<p>答：<br>布隆过滤器是纯内存操作，查询时间复杂度 O(k)（k 为哈希函数数量），性能远超数据库查询。短链接系统中，短链接的数量可能达到亿级，每次创建都查一次数据库压力极大。布隆过滤器的缺点是有一定误判率（可能误判为存在），但不会漏判（不存在一定返回不存在），对于防重场景完全够用，误判时最多多重试一次。</p>
+<hr>
+<p><strong>A3. ⭐⭐ 短链接跳转时是如何防止缓存穿透的？</strong></p>
+<p>答：<br>使用了两层防护：</p>
+<ol>
+<li><strong>布隆过滤器</strong>：存储所有有效的完整短链接（fullShortUrl），跳转时先查布隆过滤器，如果不存在直接返回 404，不会访问数据库。</li>
+<li><strong>空值缓存</strong>：对于布隆过滤器误判通过但数据库中不存在（或已过期）的短链接，在 Redis 中写入一个空值缓存（key &#x3D; GOTO_IS_NULL:{fullShortUrl}, value &#x3D; “-“），TTL 30 分钟，后续请求直接返回 404，不再查库。</li>
+</ol>
+<hr>
+<p><strong>A4. ⭐⭐ 短链接跳转时是如何防止缓存击穿的？</strong></p>
+<p>答：<br>使用 Redisson 分布式锁。当缓存中没有该短链接时，多个并发请求同时到达，只有第一个请求能获取到锁并查询数据库重建缓存，其余请求等待锁释放后直接读缓存。代码中使用了双重检查（DCL）模式：加锁前检查一次缓存，加锁后再检查一次，避免锁释放后重复重建缓存。</p>
+<hr>
+<p><strong>A5. ⭐⭐ 缓存穿透、击穿、雪崩分别是什么？项目里是怎么处理的？</strong></p>
+<p>答：</p>
+<ul>
+<li><strong>穿透</strong>：请求的数据在缓存和数据库都不存在（如恶意请求不存在的短链接），每次都穿透到数据库。本项目用布隆过滤器 + 空值缓存解决。</li>
+<li><strong>击穿</strong>：某个热点数据的缓存过期，大量并发请求同时击穿到数据库。本项目用 Redisson 分布式锁 + 双重检查解决。</li>
+<li><strong>雪崩</strong>：大量缓存同时过期，导致大量请求涌入数据库。本项目中短链接缓存 TTL 根据有效期动态计算（永久有效的链接设置较长 TTL），分散了过期时间，同时布隆过滤器和空值缓存也提供了额外保护。</li>
+</ul>
+<hr>
+<p><strong>A6. ⭐⭐ 跳转时为什么需要 t_link_goto 这张路由表？</strong></p>
+<p>答：<br>t_link 表以 gid 作为分片键，ShardingSphere 路由查询时必须携带 gid 才能确定访问哪个分片。但用户访问短链接时只有 fullShortUrl，并不知道 gid 是什么。因此引入了以 fullShortUrl 为分片键的路由表 t_link_goto，专门存储 fullShortUrl → gid 的映射关系。跳转时先查路由表拿到 gid，再用 gid + fullShortUrl 查主表。这是分库分表场景下的经典”路由表”设计模式。</p>
+<hr>
+<p><strong>A7. ⭐⭐⭐ 如果布隆过滤器服务重启，数据丢失了怎么办？</strong></p>
+<p>答：<br>有两种恢复方式：</p>
+<ol>
+<li><strong>持久化重建</strong>：服务启动时从数据库全量扫描所有有效短链接，重新加载到布隆过滤器中。因为布隆过滤器只允许添加不允许删除，历史删除的数据加进去也没关系（顶多多一点误判），不影响正确性。</li>
+<li><strong>使用支持持久化的布隆过滤器</strong>：Redisson 的布隆过滤器底层基于 Redis Bitmap，数据存储在 Redis 中，只要 Redis 有持久化（RDB&#x2F;AOF），重启后数据不丢失。</li>
+</ol>
+<hr>
+<p><strong>A8. ⭐⭐ UV 和 UIP 是怎么统计的？为什么用 Redis Set？</strong></p>
+<p>答：</p>
+<ul>
+<li><strong>UV（独立访客）</strong>：用 Cookie 标识用户。首次访问时生成 UUID 写入 Cookie（有效期30天），每次请求读取 Cookie 中的 uv 值，用 <code>Redis.sadd(UV_KEY:&#123;fullShortUrl&#125;, uv)</code> 添加，返回值为 1 说明是新成员（首次访问），0 说明已存在（非首次）。</li>
+<li><strong>UIP（独立 IP）</strong>：用同样的方式，将真实 IP（从 X-Forwarded-For 解析）添加到 Redis Set，判断是否首次。</li>
+<li>用 Redis Set 的原因：Set 的 sadd 操作是原子的，天然去重，且 O(1) 时间复杂度，非常适合高并发下的唯一计数场景。</li>
+</ul>
+<hr>
+<h3 id="模块-B：消息队列-异步统计"><a href="#模块-B：消息队列-异步统计" class="headerlink" title="模块 B：消息队列 &amp; 异步统计"></a>模块 B：消息队列 &amp; 异步统计</h3><hr>
+<p><strong>B1. ⭐⭐ 为什么统计写入要用消息队列异步处理，而不是同步写入？</strong></p>
+<p>答：<br>短链接跳转是高频操作，每次跳转需要写入 8 张统计表（access_stats、locale_stats、browser_stats、os_stats、device_stats、network_stats、access_logs、stats_today），还要调用高德地图 IP 定位 API。如果同步执行，跳转接口的响应时间会从几毫秒变成几百毫秒，用户体验极差。</p>
+<p>使用 Redis Stream 消息队列后，跳转接口只需发一条消息（几乎无耗时），统计写入由后台消费者异步完成，跳转接口响应时间大幅降低。</p>
+<hr>
+<p><strong>B2. ⭐⭐ 为什么选 Redis Stream 而不是 RocketMQ 或 Kafka？</strong></p>
+<p>答：<br>在学习项目中选择 Redis Stream 有以下考量：</p>
+<ol>
+<li><strong>减少中间件依赖</strong>：项目已经依赖 Redis，使用 Redis Stream 不需要额外部署 MQ 中间件，降低部署复杂度。</li>
+<li><strong>功能足够</strong>：Redis Stream 支持消费者组、消息确认、消息持久化，满足本项目需求。</li>
+<li><strong>学习成本低</strong>：与 Spring Data Redis 集成简单，实现 StreamListener 即可。</li>
+</ol>
+<p>生产环境对于更高吞吐量、更强可靠性要求，会选择 RocketMQ（支持事务消息、延迟消息）或 Kafka（吞吐量极高）。</p>
+<hr>
+<p><strong>B3. ⭐⭐ 消息幂等是如何实现的？为什么需要幂等？</strong></p>
+<p>答：<br><strong>为什么需要</strong>：消费者在处理消息途中崩溃重启后，消息队列会重新投递该消息，导致统计数据被重复写入（如 PV +2 而不是 +1）。</p>
+<p><strong>实现方式</strong>：使用 Redis 两阶段标记：</p>
+<ol>
+<li>消费开始时：<code>setIfAbsent(idempotent:&#123;messageId&#125;, &quot;0&quot;, 2min)</code><ul>
+<li>返回 true（设置成功）→ 首次消费，继续处理</li>
+<li>返回 false（key 已存在）→ 已在消费或已完成，进入下一步判断</li>
+</ul>
+</li>
+<li>检查完成状态：<code>get(idempotent:&#123;messageId&#125;)</code><ul>
+<li>值为 “1” → 已完成，直接跳过</li>
+<li>值为 “0” → 流程未完成（崩溃重启场景），抛异常让 MQ 重试</li>
+</ul>
+</li>
+<li>消费成功后：<code>set(idempotent:&#123;messageId&#125;, &quot;1&quot;, 2min)</code> 标记完成</li>
+<li>消费异常时：<code>delete(idempotent:&#123;messageId&#125;)</code> 删除标记，允许重试</li>
+</ol>
+<hr>
+<p><strong>B4. ⭐⭐⭐ 跨分组修改短链接时，为什么要用读写锁？</strong></p>
+<p>答：<br>当短链接从分组A移到分组B时，操作流程是：逻辑删除旧记录（gid&#x3D;A）→ 插入新记录（gid&#x3D;B）→ 更新路由表 gid。在这个过程中，如果统计消费者恰好在消费这条短链接的访问记录，它会查路由表得到 gid，然后用 gid 写统计数据。如果此时 gid 正在切换，消费者可能用旧 gid 写入统计，导致数据关联错误。</p>
+<p>解决方案：使用 Redisson 读写锁（<code>RReadWriteLock</code>）：</p>
+<ul>
+<li><strong>修改操作</strong>加写锁：防止统计消费者同时读取</li>
+<li><strong>统计消费</strong>加读锁：多个统计消费可以并发，但不能和修改并发</li>
+<li>读读共享，读写互斥，写写互斥</li>
+</ul>
+<hr>
+<h3 id="模块-C：数据库分片"><a href="#模块-C：数据库分片" class="headerlink" title="模块 C：数据库分片"></a>模块 C：数据库分片</h3><hr>
+<p><strong>C1. ⭐⭐ 项目里是怎么做分库分表的？用了哪些分片键？</strong></p>
+<p>答：<br>使用 ShardingSphere 做水平分片，每张表分 16 个分片（_0 到 _15）：</p>
+<table>
+<thead>
+<tr>
+<th>表</th>
+<th>分片键</th>
+<th>原因</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>t_user</td>
+<td>username</td>
+<td>按用户名查询，username 分片保证同一用户数据在同一分片</td>
+</tr>
+<tr>
+<td>t_group</td>
+<td>username</td>
+<td>查询某用户的分组列表，与 t_user 同键保证亲和性</td>
+</tr>
+<tr>
+<td>t_link</td>
+<td>gid</td>
+<td>按分组查询短链接，gid 分片使同组数据在同一分片</td>
+</tr>
+<tr>
+<td>t_link_goto</td>
+<td>full_short_url</td>
+<td>跳转时只有 fullShortUrl，必须以此为分片键</td>
+</tr>
+</tbody></table>
+<hr>
+<p><strong>C2. ⭐⭐ t_link 的唯一索引为什么是 (full_short_url, del_time) 而不是 full_short_url？</strong></p>
+<p>答：<br>因为同一个短链接可以被创建、删除、再次创建，如果唯一索引只有 full_short_url，第二次创建时就会因为唯一键冲突而失败。</p>
+<p>引入 del_time（删除时间戳）后：</p>
+<ul>
+<li>未删除的记录：del_time &#x3D; 0，(full_short_url, 0) 唯一</li>
+<li>删除后的记录：del_time &#x3D; 具体时间戳，(full_short_url, 时间戳) 也唯一</li>
+<li>再次创建时：新记录 del_time &#x3D; 0，与已删除记录的时间戳不同，不冲突</li>
+</ul>
+<p>这是一种巧妙的”逻辑删除 + 唯一索引”兼容方案。</p>
+<hr>
+<p><strong>C3. ⭐⭐ ShardingSphere 分片后，如何防止查询时跨分片扫描（全路由）？</strong></p>
+<p>答：<br>关键是查询 SQL 必须携带分片键。本项目中：</p>
+<ul>
+<li>查用户：WHERE username &#x3D; ? （携带分片键，单分片查询）</li>
+<li>查分组：WHERE username &#x3D; ? （携带分片键）</li>
+<li>查短链接：WHERE gid &#x3D; ? AND full_short_url &#x3D; ? （携带分片键 gid）</li>
+<li>查路由表：WHERE full_short_url &#x3D; ? （携带分片键）</li>
+</ul>
+<p>如果 SQL 中没有分片键，ShardingSphere 会对所有 16 个分片全部查询再聚合，即”全路由”，性能急剧下降。所以分片键的选择要和业务查询场景对齐。</p>
+<hr>
+<p><strong>C4. ⭐⭐⭐ 如果要查询某用户所有分组下的所有短链接，会有什么问题？</strong></p>
+<p>答：<br>t_link 以 gid 分片，如果需要按 username 查所有短链接，SQL 中没有 gid，会触发全路由扫描（16张表全扫）。</p>
+<p>本项目的解法是：先查 t_group 拿到该用户所有 gid 列表，再用 gid IN (…) 查 t_link。ShardingSphere 对 IN 条件中的每个 gid 单独路由，只访问涉及的分片，避免全路由。这也是为什么回收站分页查询要先获取用户 gid 列表的原因。</p>
+<hr>
+<h3 id="模块-D：网关-认证"><a href="#模块-D：网关-认证" class="headerlink" title="模块 D：网关 &amp; 认证"></a>模块 D：网关 &amp; 认证</h3><hr>
+<p><strong>D1. ⭐⭐ JWT 和 Token + Redis 方案有什么区别？项目为什么用后者？</strong></p>
+<p>答：</p>
+<ul>
+<li><strong>JWT</strong>：无状态，Token 本身携带用户信息，服务端不存储，但无法主动失效（退出登录后 Token 还在有效期内可用）</li>
+<li><strong>Token + Redis</strong>：有状态，Token 是随机 UUID，真实信息存在 Redis，服务端可以主动删除 Redis 中的 Token 实现强制下线和退出登录</li>
+</ul>
+<p>本项目选择 Token + Redis 方案，优点是可以精确控制 Token 有效期（每次请求可刷新TTL），退出登录立即生效，安全性更高。缺点是每次鉴权都需要查一次 Redis，增加了网络开销（但 Redis 延迟通常在 1ms 以内，可接受）。</p>
+<hr>
+<p><strong>D2. ⭐⭐ 网关是怎么把用户信息传递给下游服务的？</strong></p>
+<p>答：<br>分三步：</p>
+<ol>
+<li>前端请求携带 <code>username</code> 和 <code>token</code> 两个 Header</li>
+<li>网关的 <code>TokenValidateGatewayFilterFactory</code> 用 token 从 Redis Hash 中取出完整用户信息（JSON），解析出 <code>userId</code> 和 <code>realName</code>，通过 <code>ServerHttpRequest.mutate().headers()</code> 追加到请求 Header 中</li>
+<li>下游 Admin 服务的 <code>UserTransmitFilter</code>（Servlet Filter）从 HttpServletRequest Header 中读取 <code>username</code>、<code>userId</code>、<code>realName</code>，封装成 <code>UserInfoDTO</code> 存入 ThreadLocal（<code>UserContext</code>），Service 层通过 <code>UserContext.getUsername()</code> 获取当前用户</li>
+</ol>
+<p>这样做的好处是：Service 层不需要关心如何获取用户信息，统一由 Filter 层注入，代码解耦清晰。</p>
+<hr>
+<p><strong>D3. ⭐ 什么是 ThreadLocal？为什么用 ThreadLocal 存用户信息？</strong></p>
+<p>答：<br>ThreadLocal 是 Java 提供的线程本地变量，每个线程拥有独立的变量副本，线程间互不干扰。</p>
+<p>用于存用户信息的原因：</p>
+<ul>
+<li>Web 请求是多线程处理的，每个请求由独立线程处理</li>
+<li>将用户信息存入 ThreadLocal 后，同一请求链路中任何位置（Controller → Service → DAO）都可以直接获取，不需要通过方法参数层层传递</li>
+<li>请求结束后必须调用 <code>UserContext.removeUser()</code> 清除（本项目在 Filter 的 finally 块中清除），防止内存泄漏和线程池复用时的数据污染</li>
+</ul>
+<hr>
+<p><strong>D4. ⭐⭐ 用户限流是怎么做的？</strong></p>
+<p>答：<br>使用 <code>UserFlowRiskControlFilter</code> + Lua 脚本实现滑动窗口限流。核心逻辑在 Lua 脚本（<code>user_flow_risk_control.lua</code>）中，以用户名为 key，在指定时间窗口（<code>timeWindow</code> 秒）内统计请求次数，超过 <code>maxAccessCount</code> 则返回限流错误。</p>
+<p>使用 Lua 脚本的原因：Redis 执行 Lua 脚本是原子操作，避免了「查询计数 → 判断 → 自增」这三步操作之间的竞态条件。配置在 <code>application.yaml</code> 中：时间窗口 1 秒，最大访问次数 20 次。</p>
+<hr>
+<h3 id="模块-E：分组管理-用户注册"><a href="#模块-E：分组管理-用户注册" class="headerlink" title="模块 E：分组管理 &amp; 用户注册"></a>模块 E：分组管理 &amp; 用户注册</h3><hr>
+<p><strong>E1. ⭐⭐ gid 是怎么保证全局唯一的？用了哪些手段？</strong></p>
+<p>答：<br>三层保障：</p>
+<ol>
+<li><strong>布隆过滤器</strong>（<code>gidRegisterCachePenetrationBloomFilter</code>）：快速判断 gid 是否已存在，O(1) 时间复杂度，不存在则可用</li>
+<li><strong>t_group_unique 表唯一索引</strong>：在布隆过滤器之后，尝试向 <code>t_group_unique</code> 插入该 gid，如果抛出 <code>DuplicateKeyException</code> 说明已存在（布隆过滤器误判），返回 null 重试</li>
+<li><strong>Redisson 分布式锁</strong>：创建分组时加锁（key &#x3D; <code>LOCK_GROUP_CREATE:&#123;username&#125;</code>），防止并发创建时同一用户超过最大分组数限制</li>
+</ol>
+<p>这是「布隆过滤器 + 数据库唯一索引」双重保障的经典模式。</p>
+<hr>
+<p><strong>E2. ⭐ 用户注册时为什么要创建一个默认分组？</strong></p>
+<p>答：<br>短链接必须归属到某个分组（<code>gid</code> 是必填字段），如果用户注册后没有分组就无法创建短链接。因此在注册成功后，<code>UserServiceImpl.register()</code> 会自动调用 <code>GroupService.saveGroup(username, &quot;默认分组&quot;)</code>，确保每个用户至少有一个可用分组，提升用户体验，避免用户注册后第一步就遇到障碍。</p>
+<hr>
+<h3 id="模块-F：Spring-Cloud-微服务"><a href="#模块-F：Spring-Cloud-微服务" class="headerlink" title="模块 F：Spring Cloud 微服务"></a>模块 F：Spring Cloud 微服务</h3><hr>
+<p><strong>F1. ⭐⭐ 项目中 admin 调用 project 为什么用 OpenFeign 而不是 RestTemplate？</strong></p>
+<p>答：</p>
+<ul>
+<li><strong>RestTemplate</strong>：手动拼接 URL、手动序列化请求体、手动反序列化响应，代码冗长</li>
+<li><strong>OpenFeign</strong>：声明式 HTTP 客户端，只需定义接口 + 注解（<code>@FeignClient</code>、<code>@GetMapping</code> 等），框架自动生成实现，代码简洁，与 Spring MVC 风格一致，与 Nacos 服务发现无缝集成，支持负载均衡（<code>lb://service-name</code>）</li>
+</ul>
+<p>本项目的 <code>ShortLinkActualRemoteService</code> 接口只需声明方法签名，就能自动调用 project 服务的对应接口，非常清晰。</p>
+<hr>
+<p><strong>F2. ⭐ Nacos 在项目中起什么作用？</strong></p>
+<p>答：<br>Nacos 作为服务注册与发现中心：</p>
+<ul>
+<li>gateway、admin、project 三个服务启动时都向 Nacos 注册自己的 IP 和端口</li>
+<li>网关路由配置 <code>uri: lb://short-link-admin</code> 中，<code>lb://</code> 前缀表示通过 Nacos 服务发现 + 负载均衡找到 admin 服务实例</li>
+<li>admin 的 OpenFeign 调用 <code>short-link-project</code> 时，也通过 Nacos 获取 project 的真实地址</li>
+<li>如果某个服务有多个实例，Nacos + 负载均衡会自动分配请求</li>
+</ul>
+<hr>
+<p><strong>F3. ⭐⭐ 项目中 aggregation 模块是做什么的？</strong></p>
+<p>答：<br>aggregation 是聚合部署模块，将 admin 和 project 两个服务打包成一个 JAR 包运行，用于开发调试或资源有限的部署环境。</p>
+<p>此时 <code>ShortLinkActualRemoteService</code>（OpenFeign 接口）的 <code>url</code> 配置从空（走 Nacos 服务发现）变为 <code>aggregation.remote-url</code>（直连本地），跳过 Nacos，两个服务在同一 JVM 内通过 HTTP 调用（localhost），避免了跨网络开销。这体现了微服务架构设计上对部署灵活性的考虑。</p>
+<hr>
+<h3 id="模块-G：通用-Java-Spring-基础（结合项目回答）"><a href="#模块-G：通用-Java-Spring-基础（结合项目回答）" class="headerlink" title="模块 G：通用 Java &amp; Spring 基础（结合项目回答）"></a>模块 G：通用 Java &amp; Spring 基础（结合项目回答）</h3><hr>
+<p><strong>G1. ⭐ Spring Boot 和 Spring Cloud 有什么区别？</strong></p>
+<p>答：</p>
+<ul>
+<li><strong>Spring Boot</strong>：简化单体 Spring 应用开发，自动配置、内嵌 Tomcat、starter 依赖管理</li>
+<li><strong>Spring Cloud</strong>：基于 Spring Boot，提供微服务开发的一套解决方案，包括服务注册发现（Nacos）、网关（Gateway）、服务调用（OpenFeign）、负载均衡、配置中心等</li>
+</ul>
+<p>本项目中 admin、project、gateway 各自是 Spring Boot 应用，它们通过 Spring Cloud 的 Nacos、Gateway、OpenFeign 组合成微服务系统。</p>
+<hr>
+<p><strong>G2. ⭐⭐ MyBatis-Plus 是什么？项目里怎么用的？</strong></p>
+<p>答：<br>MyBatis-Plus 是 MyBatis 的增强工具，提供了通用 CRUD 方法（BaseMapper）、条件构造器（LambdaQueryWrapper）、分页插件等，减少大量重复 SQL 编写。</p>
+<p>本项目中：</p>
+<ul>
+<li>Service 继承 <code>ServiceImpl&lt;Mapper, DO&gt;</code>，自动获得 insert&#x2F;update&#x2F;selectList 等方法</li>
+<li>使用 <code>LambdaQueryWrapper</code> 和 <code>LambdaUpdateWrapper</code> 构建类型安全的查询条件，避免字段名写错</li>
+<li>分页查询通过 <code>IPage</code> + 分页插件实现</li>
+<li>对于复杂 SQL（如按排序字段分页、统计聚合），使用自定义 XML Mapper</li>
+</ul>
+<hr>
+<p><strong>G3. ⭐⭐ 项目中用了哪些设计模式？</strong></p>
+<p>答：</p>
+<ul>
+<li><strong>过滤器链（责任链）</strong>：请求经过 <code>UserTransmitFilter</code> → <code>UserFlowRiskControlFilter</code> → Controller，每个 Filter 只处理自己的职责</li>
+<li><strong>模板方法</strong>：<code>AbstractGatewayFilterFactory</code> 定义了过滤器工厂的框架，<code>TokenValidateGatewayFilterFactory</code> 实现具体逻辑</li>
+<li><strong>建造者模式</strong>：大量使用 Lombok <code>@Builder</code> 注解（如 <code>ShortLinkDO.builder().gid().originUrl().build()</code>），链式构建对象</li>
+<li><strong>门面模式</strong>：<code>ShortLinkActualRemoteService</code> 作为 admin 访问 project 所有接口的统一门面</li>
+<li><strong>策略模式</strong>（隐含）：短链接有效期类型（永久&#x2F;自定义）对应不同的 Redis TTL 计算策略</li>
+</ul>
+<hr>
+<p><strong>G4. ⭐ @Transactional 注解用在哪里了？有没有什么注意事项？</strong></p>
+<p>答：<br>项目中 <code>createShortLink()</code>、<code>updateShortLink()</code>、<code>register()</code> 等方法上加了 <code>@Transactional(rollbackFor = Exception.class)</code>，确保短链接主表和路由表的写入要么都成功要么都回滚。</p>
+<p>注意事项：</p>
+<ol>
+<li><code>rollbackFor = Exception.class</code> 必须写，否则默认只对 RuntimeException 回滚，受检异常不回滚</li>
+<li>事务方法不能在同类内部调用（会导致代理失效，事务不生效）</li>
+</ol>
+<h1 id="SaaS-短链接系统-—-功能模块全量分析文档"><a href="#SaaS-短链接系统-—-功能模块全量分析文档" class="headerlink" title="SaaS 短链接系统 — 功能模块全量分析文档"></a>SaaS 短链接系统 — 功能模块全量分析文档</h1><blockquote>
+<p>本文档基于源码阅读，按功能模块逐一分析前后端之间的请求与响应，说明每个功能涉及的类及其协调关系，最后进行整体架构统筹。</p>
+</blockquote>
+<hr>
+<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><ol>
+<li><a href="#1-%E6%95%B4%E4%BD%93%E6%9E%B6%E6%9E%84%E6%A6%82%E8%BF%B0">整体架构概述</a></li>
+<li><a href="#2-%E6%A8%A1%E5%9D%97%E4%B8%80%E7%BD%91%E5%85%B3%E5%B1%82gateway">模块一：网关层（gateway）</a></li>
+<li><a href="#3-%E6%A8%A1%E5%9D%97%E4%BA%8C%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86admin--%E7%94%A8%E6%88%B7">模块二：用户管理（admin - 用户）</a></li>
+<li><a href="#4-%E6%A8%A1%E5%9D%97%E4%B8%89%E7%9F%AD%E9%93%BE%E6%8E%A5%E5%88%86%E7%BB%84%E7%AE%A1%E7%90%86admin--%E5%88%86%E7%BB%84">模块三：短链接分组管理（admin - 分组）</a></li>
+<li><a href="#5-%E6%A8%A1%E5%9D%97%E5%9B%9B%E7%9F%AD%E9%93%BE%E6%8E%A5%E6%A0%B8%E5%BF%83%E7%AE%A1%E7%90%86admin--project">模块四：短链接核心管理（admin + project）</a></li>
+<li><a href="#6-%E6%A8%A1%E5%9D%97%E4%BA%94%E7%9F%AD%E9%93%BE%E6%8E%A5%E8%B7%B3%E8%BD%ACproject--%E8%B7%B3%E8%BD%AC">模块五：短链接跳转（project - 跳转）</a></li>
+<li><a href="#7-%E6%A8%A1%E5%9D%97%E5%85%AD%E5%9B%9E%E6%94%B6%E7%AB%99%E7%AE%A1%E7%90%86admin--project">模块六：回收站管理（admin + project）</a></li>
+<li><a href="#8-%E6%A8%A1%E5%9D%97%E4%B8%83%E6%95%B0%E6%8D%AE%E7%BB%9F%E8%AE%A1%E4%B8%8E%E7%9B%91%E6%8E%A7admin--project">模块七：数据统计与监控（admin + project）</a></li>
+<li><a href="#9-%E6%A8%A1%E5%9D%97%E5%85%AB%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97%E4%B8%8E%E7%BB%9F%E8%AE%A1%E5%BC%82%E6%AD%A5%E5%86%99%E5%85%A5">模块八：消息队列与统计异步写入</a></li>
+<li><a href="#10-%E6%A8%A1%E5%9D%97%E4%B9%9D%E5%89%8D%E7%AB%AF%E8%B7%AF%E7%94%B1%E4%B8%8E-axios-%E6%8B%A6%E6%88%AA%E5%B1%82">模块九：前端路由与 Axios 拦截层</a></li>
+<li><a href="#11-%E6%95%B0%E6%8D%AE%E5%BA%93%E5%88%86%E7%89%87%E8%AE%BE%E8%AE%A1">数据库分片设计</a></li>
+<li><a href="#12-%E5%90%84%E6%A8%A1%E5%9D%97%E5%8D%8F%E8%B0%83%E6%80%BB%E7%BB%93">各模块协调总结</a></li>
+</ol>
+<hr>
+<h2 id="1-整体架构概述"><a href="#1-整体架构概述" class="headerlink" title="1. 整体架构概述"></a>1. 整体架构概述</h2><p>本项目是一个面向 SaaS 场景的短链接平台，整体采用 <strong>Spring Cloud 微服务架构</strong>，分为以下四个独立可部署的服务：</p>
+<table>
+<thead>
+<tr>
+<th>服务名</th>
+<th>端口</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>gateway</code>（网关）</td>
+<td>8000</td>
+<td>统一入口，负责路由转发与 Token 校验</td>
+</tr>
+<tr>
+<td><code>admin</code>（管理后台）</td>
+<td>8002</td>
+<td>用户、分组管理；通过 OpenFeign 调用 project</td>
+</tr>
+<tr>
+<td><code>project</code>（短链接核心）</td>
+<td>8001</td>
+<td>短链接创建、跳转、统计</td>
+</tr>
+<tr>
+<td><code>console-vue</code>（前端）</td>
+<td>vite dev</td>
+<td>Vue3 单页应用，通过 axios 调用 admin 的 API</td>
+</tr>
+</tbody></table>
+<p><strong>请求链路总览：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">浏览器(Vue3)</span><br><span class="line">   │  /api/short-link/admin/**</span><br><span class="line">   ▼</span><br><span class="line">Gateway (8000)</span><br><span class="line">   │  Token 校验 → 注入 userId/realName 到 Header</span><br><span class="line">   │  lb://short-link-admin</span><br><span class="line">   ▼</span><br><span class="line">Admin 服务 (8002)</span><br><span class="line">   │  用户/分组操作 → 直接操作 MySQL (ShardingSphere)</span><br><span class="line">   │  短链接操作  → OpenFeign 调用 project</span><br><span class="line">   ▼</span><br><span class="line">Project 服务 (8001)</span><br><span class="line">   │  短链接 CRUD → MySQL (ShardingSphere)</span><br><span class="line">   │  跳转统计   → Redis Stream MQ → Consumer 异步落库</span><br><span class="line">   ▼</span><br><span class="line">MySQL (分片) + Redis</span><br></pre></td></tr></table></figure>
+
+<p>服务注册发现使用 <strong>Nacos</strong>，数据库分片使用 <strong>ShardingSphere</strong>，分布式锁与布隆过滤器使用 <strong>Redisson</strong>，流量控制使用 <strong>Sentinel</strong>。</p>
+<hr>
+<h2 id="2-模块一：网关层（gateway）"><a href="#2-模块一：网关层（gateway）" class="headerlink" title="2. 模块一：网关层（gateway）"></a>2. 模块一：网关层（gateway）</h2><h3 id="2-1-功能定位"><a href="#2-1-功能定位" class="headerlink" title="2.1 功能定位"></a>2.1 功能定位</h3><p><code>gateway</code> 模块是系统唯一对外暴露的入口，承担两项核心职责：</p>
+<ol>
+<li>路由转发（基于 Spring Cloud Gateway）</li>
+<li>Token 合法性校验（自定义 GatewayFilter）</li>
+</ol>
+<h3 id="2-2-路由配置"><a href="#2-2-路由配置" class="headerlink" title="2.2 路由配置"></a>2.2 路由配置</h3><p>配置文件 <code>application-dev.yaml</code> 定义了两条路由规则：</p>
+<table>
+<thead>
+<tr>
+<th>路由 ID</th>
+<th>匹配路径</th>
+<th>转发目标</th>
+<th>过滤器</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>short-link-admin</code></td>
+<td><code>/api/short-link/admin/**</code></td>
+<td><code>lb://short-link-admin</code></td>
+<td>TokenValidate（含白名单）</td>
+</tr>
+<tr>
+<td><code>short-link-project</code></td>
+<td><code>/api/short-link/**</code></td>
+<td><code>lb://short-link-project</code></td>
+<td>TokenValidate</td>
+</tr>
+</tbody></table>
+<p><strong>白名单路径</strong>（无需 Token）：</p>
+<ul>
+<li><code>GET /api/short-link/admin/v1/user/login</code></li>
+<li><code>GET /api/short-link/admin/v1/user/has-username</code></li>
+<li><code>POST /api/short-link/admin/v1/user</code>（注册，在代码中硬编码）</li>
+</ul>
+<h3 id="2-3-Token-校验流程"><a href="#2-3-Token-校验流程" class="headerlink" title="2.3 Token 校验流程"></a>2.3 Token 校验流程</h3><p>涉及类：<code>TokenValidateGatewayFilterFactory</code>、<code>Config</code>、<code>GatewayErrorResult</code></p>
+<p><strong>请求流程：</strong></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">前端请求</span><br><span class="line">  │  Header: username=xxx, token=yyy</span><br><span class="line">  ▼</span><br><span class="line">TokenValidateGatewayFilterFactory.apply()</span><br><span class="line">  │</span><br><span class="line">  ├─ 判断路径是否在白名单？</span><br><span class="line">  │    是 → 直接放行</span><br><span class="line">  │</span><br><span class="line">  └─ 否 → 从 Redis Hash 查询</span><br><span class="line">           Key:   <span class="type">short</span>-link:login:&#123;username&#125;</span><br><span class="line">           Field: &#123;token&#125;</span><br><span class="line">           Value: JSON 用户信息</span><br><span class="line">           │</span><br><span class="line">           ├─ 存在 → 解析 userId、realName</span><br><span class="line">           │          将 userId、realName 追加到请求 Header</span><br><span class="line">           │          放行到下游服务</span><br><span class="line">           │</span><br><span class="line">           └─ 不存在 → 返回 HTTP <span class="number">401</span></span><br><span class="line">                        Body: &#123; status: <span class="number">401</span>, message: <span class="string">&quot;Token validation error&quot;</span> &#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>响应：</strong></p>
+<ul>
+<li>校验通过：透明转发，下游服务的响应直接返回给前端</li>
+<li>校验失败：<code>GatewayErrorResult &#123; status: 401, message: &quot;Token validation error&quot; &#125;</code></li>
+</ul>
+<p><strong>协调关系：</strong></p>
+<ul>
+<li><code>Config</code> 是 <code>TokenValidateGatewayFilterFactory</code> 的配置类，由 Spring Cloud Gateway 从 YAML 中反序列化白名单注入</li>
+<li><code>StringRedisTemplate</code> 用于查询 Redis 中的登录态</li>
+<li>网关将 <code>userId</code> 和 <code>realName</code>（URL 编码）写入 Header，供下游 <code>UserTransmitFilter</code> 读取后注入 <code>UserContext</code></li>
+</ul>
+<hr>
+<h2 id="3-模块二：用户管理（admin-用户）"><a href="#3-模块二：用户管理（admin-用户）" class="headerlink" title="3. 模块二：用户管理（admin - 用户）"></a>3. 模块二：用户管理（admin - 用户）</h2><p>前端 API 文件：<code>console-vue/src/api/modules/user.js</code><br>后端 Controller：<code>admin/controller/UserController.java</code><br>后端 Service：<code>admin/service/impl/UserServiceImpl.java</code></p>
+<h3 id="3-1-功能：检查用户名是否可用"><a href="#3-1-功能：检查用户名是否可用" class="headerlink" title="3.1 功能：检查用户名是否可用"></a>3.1 功能：检查用户名是否可用</h3><p><strong>请求：</strong> <code>GET /api/short-link/admin/v1/user/has-username?username=&#123;username&#125;</code></p>
+<p><strong>响应：</strong> <code>Result&lt;Boolean&gt;</code> — <code>true</code> 表示可用，<code>false</code> 表示已存在</p>
+<p><strong>执行链：</strong></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">UserController.hasUsername()</span><br><span class="line">  └─ UserServiceImpl.hasUsername()</span><br><span class="line">       └─ RBloomFilter.contains(username)</span><br><span class="line">            返回 !contains（布隆过滤器不含 = 可用）</span><br></pre></td></tr></table></figure>
+
+<p><strong>涉及类：</strong></p>
+<ul>
+<li><code>UserController</code>：接收请求，委托 Service</li>
+<li><code>UserServiceImpl</code>：查询布隆过滤器 <code>userRegisterCachePenetrationBloomFilter</code></li>
+<li><code>RBloomFilter</code>（Redisson）：存储所有已注册用户名，防止缓存穿透</li>
+</ul>
+<h3 id="3-2-功能：用户注册"><a href="#3-2-功能：用户注册" class="headerlink" title="3.2 功能：用户注册"></a>3.2 功能：用户注册</h3><p><strong>请求：</strong> <code>POST /api/short-link/admin/v1/user</code><br><strong>请求体：</strong> <code>UserRegisterReqDTO &#123; username, password, realName, phone, mail &#125;</code></p>
+<p><strong>响应：</strong> <code>Result&lt;Void&gt;</code></p>
+<p><strong>执行链：</strong></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">UserController.register()</span><br><span class="line">  └─ UserServiceImpl.register()</span><br><span class="line">       ├─ hasUsername() 布隆过滤器检查</span><br><span class="line">       ├─ Redisson.getLock(LOCK_USER_REGISTER_KEY + username) 加锁</span><br><span class="line">       ├─ UserMapper.insert() → t_user_&#123;<span class="number">0</span>-<span class="number">15</span>&#125;</span><br><span class="line">       ├─ GroupService.saveGroup(username, <span class="string">&quot;默认分组&quot;</span>) 自动创建默认分组</span><br><span class="line">       └─ RBloomFilter.add(username) 将新用户名加入布隆过滤器</span><br></pre></td></tr></table></figure>
+
+<p><strong>涉及类：</strong></p>
+<ul>
+<li><code>UserController</code>、<code>UserServiceImpl</code></li>
+<li><code>UserMapper</code>（MyBatis-Plus）：操作分片表 <code>t_user_&#123;0-15&#125;</code></li>
+<li><code>GroupServiceImpl.saveGroup()</code>：注册时自动创建”默认分组”</li>
+<li><code>RBloomFilter</code>：防重注册</li>
+<li><code>RLock</code>（Redisson 分布式锁）：防并发重复注册</li>
+<li><code>UserDO</code>：用户数据对象，对应数据库表</li>
+</ul>
+<p><strong>注：</strong> 用户表按 <code>username</code> 分片为 <code>t_user_0</code> ~ <code>t_user_15</code>（16张表）</p>
+<h3 id="3-3-功能：用户登录"><a href="#3-3-功能：用户登录" class="headerlink" title="3.3 功能：用户登录"></a>3.3 功能：用户登录</h3><p><strong>请求：</strong> <code>POST /api/short-link/admin/v1/user/login</code><br><strong>请求体：</strong> <code>UserLoginReqDTO &#123; username, password &#125;</code></p>
+<p><strong>响应：</strong> <code>Result&lt;UserLoginRespDTO&gt;</code> — <code>&#123; token: &quot;uuid字符串&quot; &#125;</code></p>
+<p><strong>执行链：</strong></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">UserController.login()</span><br><span class="line">  └─ UserServiceImpl.login()</span><br><span class="line">       ├─ UserMapper.selectOne() 验证用户名+密码+del_flag=<span class="number">0</span></span><br><span class="line">       ├─ Redis Hash 查询: <span class="type">short</span>-link:login:&#123;username&#125;</span><br><span class="line">       │    存在 → 刷新过期时间30min，返回已有 token</span><br><span class="line">       │    不存在 → 生成 UUID token</span><br><span class="line">       │             Redis.hset(<span class="type">short</span>-link:login:&#123;username&#125;, token, JSON用户信息)</span><br><span class="line">       │             设置过期时间 30min</span><br><span class="line">       └─ 返回 UserLoginRespDTO(token)</span><br></pre></td></tr></table></figure>
+
+<p><strong>涉及类：</strong></p>
+<ul>
+<li><code>UserLoginReqDTO</code>：请求 DTO，包含用户名密码</li>
+<li><code>UserLoginRespDTO</code>：响应 DTO，仅含 token</li>
+<li><code>StringRedisTemplate</code>：操作 Redis Hash 存储登录态</li>
+<li><code>UserDO</code>：从数据库查出后序列化到 Redis Value 中</li>
+</ul>
+<p><strong>Redis 数据结构：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Hash Key:   short-link:login:&#123;username&#125;</span><br><span class="line">Hash Field: &#123;token_uuid&#125;</span><br><span class="line">Hash Value: JSON(&#123;id, username, realName, phone, mail, ...&#125;)</span><br><span class="line">TTL:        30 分钟</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-4-功能：检查登录状态"><a href="#3-4-功能：检查登录状态" class="headerlink" title="3.4 功能：检查登录状态"></a>3.4 功能：检查登录状态</h3><p><strong>请求：</strong> <code>GET /api/short-link/admin/v1/user/check-login?username=&amp;token=</code></p>
+<p><strong>响应：</strong> <code>Result&lt;Boolean&gt;</code> — true 表示已登录</p>
+<p><strong>执行链：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">UserController.checkLogin()</span><br><span class="line">  └─ UserServiceImpl.checkLogin()</span><br><span class="line">       └─ Redis.hget(short-link:login:&#123;username&#125;, token) != null</span><br></pre></td></tr></table></figure>
+
+<p>网关路由守卫在前端路由跳转时调用此接口（<code>router/index.js</code> 中的 <code>beforeEach</code>）。</p>
+<h3 id="3-5-功能：退出登录"><a href="#3-5-功能：退出登录" class="headerlink" title="3.5 功能：退出登录"></a>3.5 功能：退出登录</h3><p><strong>请求：</strong> <code>DELETE /api/short-link/admin/v1/user/logout?username=&amp;token=</code></p>
+<p><strong>响应：</strong> <code>Result&lt;Void&gt;</code></p>
+<p><strong>执行链：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">UserController.logout()</span><br><span class="line">  └─ UserServiceImpl.logout()</span><br><span class="line">       ├─ checkLogin() 确认 token 存在</span><br><span class="line">       └─ Redis.delete(short-link:login:&#123;username&#125;) 整个 Hash Key 删除</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-6-功能：修改用户信息"><a href="#3-6-功能：修改用户信息" class="headerlink" title="3.6 功能：修改用户信息"></a>3.6 功能：修改用户信息</h3><p><strong>请求：</strong> <code>PUT /api/short-link/admin/v1/user</code><br><strong>请求体：</strong> <code>UserUpdateReqDTO &#123; username, realName, phone, mail, ... &#125;</code></p>
+<p><strong>响应：</strong> <code>Result&lt;Void&gt;</code></p>
+<p><strong>执行链：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">UserController.update()</span><br><span class="line">  └─ UserServiceImpl.update()</span><br><span class="line">       ├─ UserContext.getUsername() 校验当前登录用户与修改目标一致</span><br><span class="line">       └─ UserMapper.update() 更新 t_user_&#123;分片&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>涉及类：</strong></p>
+<ul>
+<li><code>UserContext</code>：ThreadLocal 容器，存储当前请求的用户信息（由 <code>UserTransmitFilter</code> 从 Header 中注入）</li>
+<li><code>UserTransmitFilter</code>：Servlet Filter，读取 Gateway 注入的 <code>username</code>&#x2F;<code>userId</code>&#x2F;<code>realName</code> Header，填充 <code>UserContext</code></li>
+</ul>
+<h3 id="3-7-功能：查询用户信息"><a href="#3-7-功能：查询用户信息" class="headerlink" title="3.7 功能：查询用户信息"></a>3.7 功能：查询用户信息</h3><p><strong>请求：</strong> <code>GET /api/short-link/admin/v1/actual/user/&#123;username&#125;</code></p>
+<p><strong>响应：</strong> <code>Result&lt;UserActualRespDTO&gt;</code> — 包含真实姓名、手机号等（未脱敏）</p>
+<p><strong>执行链：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">UserController.getActualUserByUsername()</span><br><span class="line">  └─ UserServiceImpl.getUserByUsername()</span><br><span class="line">       └─ UserMapper.selectOne(username)</span><br><span class="line">  └─ BeanUtil.toBean() 转换为 UserActualRespDTO（手机号不脱敏）</span><br></pre></td></tr></table></figure>
+
+<p><strong>注：</strong> <code>GET /api/short-link/admin/v1/user/&#123;username&#125;</code> 返回 <code>UserRespDTO</code>，其中手机号经过 <code>PhoneDesensitizationSerializer</code> 脱敏（中间4位替换为 <code>****</code>）。</p>
+<hr>
+<h2 id="4-模块三：短链接分组管理（admin-分组）"><a href="#4-模块三：短链接分组管理（admin-分组）" class="headerlink" title="4. 模块三：短链接分组管理（admin - 分组）"></a>4. 模块三：短链接分组管理（admin - 分组）</h2><p>前端 API 文件：<code>console-vue/src/api/modules/group.js</code><br>后端 Controller：<code>admin/controller/GroupController.java</code><br>后端 Service：<code>admin/service/impl/GroupServiceImpl.java</code></p>
+<h3 id="4-1-功能：新增分组"><a href="#4-1-功能：新增分组" class="headerlink" title="4.1 功能：新增分组"></a>4.1 功能：新增分组</h3><p><strong>请求：</strong> <code>POST /api/short-link/admin/v1/group</code><br><strong>请求体：</strong> <code>ShortLinkGroupSaveReqDTO &#123; name &#125;</code></p>
+<p><strong>响应：</strong> <code>Result&lt;Void&gt;</code></p>
+<p><strong>执行链：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">GroupController.save()</span><br><span class="line">  └─ GroupServiceImpl.saveGroup(groupName)</span><br><span class="line">       └─ saveGroup(UserContext.getUsername(), groupName)</span><br><span class="line">            ├─ RLock(LOCK_GROUP_CREATE_KEY:&#123;username&#125;) 加分布式锁</span><br><span class="line">            ├─ 查询当前用户分组数量，超过 max-num(20) 则抛出异常</span><br><span class="line">            ├─ 循环生成唯一 gid（最多10次）</span><br><span class="line">            │    ├─ RandomGenerator.generateRandom() 生成随机字符串</span><br><span class="line">            │    ├─ RBloomFilter.contains(gid) 检查是否已存在</span><br><span class="line">            │    └─ GroupUniqueMapper.insert() 插入 t_group_unique（唯一索引兜底）</span><br><span class="line">            ├─ GroupMapper.insert() → t_group_&#123;0-15&#125;</span><br><span class="line">            └─ RBloomFilter.add(gid)</span><br></pre></td></tr></table></figure>
+
+<p><strong>涉及类：</strong></p>
+<ul>
+<li><code>GroupController</code>、<code>GroupServiceImpl</code></li>
+<li><code>GroupMapper</code>：操作分片表 <code>t_group_&#123;0-15&#125;</code></li>
+<li><code>GroupUniqueMapper</code>：操作 <code>t_group_unique</code>，利用唯一索引防止 gid 重复</li>
+<li><code>GroupDO</code>：分组数据对象</li>
+<li><code>RandomGenerator</code>：生成随机 gid</li>
+<li><code>RBloomFilter&lt;String&gt; gidRegisterCachePenetrationBloomFilter</code>：防止 gid 生成重复</li>
+<li><code>UserContext</code>：获取当前登录用户名</li>
+</ul>
+<p><strong>注册时自动调用：</strong> <code>UserServiceImpl.register()</code> 在注册后自动调用 <code>groupService.saveGroup(username, &quot;默认分组&quot;)</code>，因此每个新用户都有一个默认分组。</p>
+<h3 id="4-2-功能：查询分组列表"><a href="#4-2-功能：查询分组列表" class="headerlink" title="4.2 功能：查询分组列表"></a>4.2 功能：查询分组列表</h3><p><strong>请求：</strong> <code>GET /api/short-link/admin/v1/group</code></p>
+<p><strong>响应：</strong> <code>Result&lt;List&lt;ShortLinkGroupRespDTO&gt;&gt;</code> — 每个分组含 <code>gid, name, sortOrder, shortLinkCount</code></p>
+<p><strong>执行链：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">GroupController.listGroup()</span><br><span class="line">  └─ GroupServiceImpl.listGroup()</span><br><span class="line">       ├─ GroupMapper.selectList(username=当前用户, delFlag=0) 按 sortOrder+updateTime 排序</span><br><span class="line">       ├─ ShortLinkActualRemoteService.listGroupShortLinkCount(gidList)</span><br><span class="line">       │    └─ OpenFeign → GET /api/short-link/v1/count</span><br><span class="line">       │         └─ project:ShortLinkController.listGroupShortLinkCount()</span><br><span class="line">       │              └─ ShortLinkServiceImpl.listGroupShortLinkCount()</span><br><span class="line">       │                   └─ SQL: SELECT gid, count(*) FROM t_link WHERE gid IN(...) GROUP BY gid</span><br><span class="line">       └─ 将 shortLinkCount 设置到每个 ShortLinkGroupRespDTO 中</span><br></pre></td></tr></table></figure>
+
+<p><strong>涉及类：</strong></p>
+<ul>
+<li><code>ShortLinkActualRemoteService</code>：OpenFeign 接口，声明了所有对 project 服务的调用</li>
+<li><code>ShortLinkGroupCountQueryRespDTO</code>：分组短链接数量 DTO</li>
+<li><code>ShortLinkGroupRespDTO</code>：最终返回给前端的分组信息（含数量）</li>
+</ul>
+<h3 id="4-3-功能：修改分组名称"><a href="#4-3-功能：修改分组名称" class="headerlink" title="4.3 功能：修改分组名称"></a>4.3 功能：修改分组名称</h3><p><strong>请求：</strong> <code>PUT /api/short-link/admin/v1/group</code><br><strong>请求体：</strong> <code>ShortLinkGroupUpdateReqDTO &#123; gid, name &#125;</code></p>
+<p><strong>响应：</strong> <code>Result&lt;Void&gt;</code></p>
+<p><strong>执行链：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">GroupController.updateGroup()</span><br><span class="line">  └─ GroupServiceImpl.updateGroup()</span><br><span class="line">       └─ GroupMapper.update(name, WHERE username=当前用户 AND gid=? AND delFlag=0)</span><br></pre></td></tr></table></figure>
+
+<h3 id="4-4-功能：删除分组"><a href="#4-4-功能：删除分组" class="headerlink" title="4.4 功能：删除分组"></a>4.4 功能：删除分组</h3><p><strong>请求：</strong> <code>DELETE /api/short-link/admin/v1/group?gid=&#123;gid&#125;</code></p>
+<p><strong>响应：</strong> <code>Result&lt;Void&gt;</code></p>
+<p><strong>执行链：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">GroupController.updateGroup(gid)</span><br><span class="line">  └─ GroupServiceImpl.deleteGroup(gid)</span><br><span class="line">       └─ GroupMapper.update(delFlag=1, WHERE username=当前用户 AND gid=? AND delFlag=0)</span><br></pre></td></tr></table></figure>
+
+<p>逻辑删除，<code>del_flag</code> 置为 1，数据不物理删除。</p>
+<h3 id="4-5-功能：分组排序"><a href="#4-5-功能：分组排序" class="headerlink" title="4.5 功能：分组排序"></a>4.5 功能：分组排序</h3><p><strong>请求：</strong> <code>POST /api/short-link/admin/v1/group/sort</code><br><strong>请求体：</strong> <code>List&lt;ShortLinkGroupSortReqDTO&gt;</code> — <code>[&#123;gid, sortOrder&#125;, ...]</code></p>
+<p><strong>响应：</strong> <code>Result&lt;Void&gt;</code></p>
+<p><strong>执行链：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">GroupController.sortGroup()</span><br><span class="line">  └─ GroupServiceImpl.sortGroup()</span><br><span class="line">       └─ 遍历列表，逐个 GroupMapper.update(sortOrder=?, WHERE username=当前用户 AND gid=?)</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="5-模块四：短链接核心管理（admin-project）"><a href="#5-模块四：短链接核心管理（admin-project）" class="headerlink" title="5. 模块四：短链接核心管理（admin + project）"></a>5. 模块四：短链接核心管理（admin + project）</h2><p>前端 API 文件：<code>console-vue/src/api/modules/smallLinkPage.js</code><br>Admin Controller：<code>admin/controller/ShortLinkController.java</code><br>Project Controller：<code>project/controller/ShortLinkController.java</code><br>Project Service：<code>project/service/impl/ShortLinkServiceImpl.java</code></p>
+<p><strong>调用链说明：</strong> 前端请求 admin，admin 通过 <code>ShortLinkActualRemoteService</code>（OpenFeign）转发给 project，project 实际执行业务逻辑。</p>
+<h3 id="5-1-功能：创建短链接"><a href="#5-1-功能：创建短链接" class="headerlink" title="5.1 功能：创建短链接"></a>5.1 功能：创建短链接</h3><p><strong>请求：</strong> <code>POST /api/short-link/admin/v1/create</code><br><strong>请求体：</strong> <code>ShortLinkCreateReqDTO &#123; originUrl, gid, createdType, validDateType, validDate, describe &#125;</code></p>
+<p><strong>响应：</strong> <code>Result&lt;ShortLinkCreateRespDTO&gt;</code> — <code>&#123; fullShortUrl, originUrl, gid &#125;</code></p>
+<p><strong>执行链：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">admin:ShortLinkController.createShortLink()</span><br><span class="line">  └─ ShortLinkActualRemoteService.createShortLink() [OpenFeign]</span><br><span class="line">       └─ project:ShortLinkController.createShortLink()</span><br><span class="line">            └─ ShortLinkServiceImpl.createShortLink()</span><br><span class="line">                 ├─ verificationWhitelist(originUrl) 域名白名单校验</span><br><span class="line">                 ├─ generateSuffix() 生成短链接后缀</span><br><span class="line">                 │    ├─ originUrl + UUID → HashUtil.hashToBase62() 生成6位码</span><br><span class="line">                 │    └─ RBloomFilter.contains(fullShortUrl) 判断是否已存在，冲突则重试（最多10次）</span><br><span class="line">                 ├─ ShortLinkMapper.insert() → t_link_&#123;分片&#125;</span><br><span class="line">                 ├─ ShortLinkGotoMapper.insert() → t_link_goto_&#123;分片&#125;</span><br><span class="line">                 │    （goto 表以 fullShortUrl 分片，存储 fullShortUrl→gid 映射）</span><br><span class="line">                 ├─ Redis.set(goto:&#123;fullShortUrl&#125;, originUrl, TTL) 缓存预热</span><br><span class="line">                 └─ RBloomFilter.add(fullShortUrl)</span><br></pre></td></tr></table></figure>
+
+<p><strong>涉及类：</strong></p>
+<ul>
+<li><code>ShortLinkDO</code>：短链接数据对象（含 domain, shortUri, fullShortUrl, originUrl, gid, enableStatus, totalPv&#x2F;Uv&#x2F;Uip 等）</li>
+<li><code>ShortLinkGotoDO</code>：路由表对象，存 <code>fullShortUrl → gid</code>，用于跳转时快速定位分片</li>
+<li><code>HashUtil.hashToBase62()</code>：MurmurHash + Base62 编码，生成6位短码</li>
+<li><code>RBloomFilter&lt;String&gt; shortUriCreateCachePenetrationBloomFilter</code>：存储全量 fullShortUrl</li>
+<li><code>GotoDomainWhiteListConfiguration</code>：域名白名单配置，演示环境限制可跳转的目标域名</li>
+<li><code>getFavicon(url)</code>：通过 Jsoup 抓取目标网站的 favicon 链接</li>
+<li><code>LinkUtil.getLinkCacheValidTime()</code>：根据有效期类型计算 Redis TTL</li>
+</ul>
+<h3 id="5-2-功能：通过分布式锁创建短链接（备用方案）"><a href="#5-2-功能：通过分布式锁创建短链接（备用方案）" class="headerlink" title="5.2 功能：通过分布式锁创建短链接（备用方案）"></a>5.2 功能：通过分布式锁创建短链接（备用方案）</h3><p><strong>请求：</strong> <code>POST /api/short-link/admin/v1/create/by-lock</code>（前端暂未使用此接口）</p>
+<p>与 5.1 类似，但不使用布隆过滤器，改用全局分布式锁 + 数据库查询判重，性能低于布隆过滤器方案，作为对比实现保留在代码中。</p>
+<h3 id="5-3-功能：批量创建短链接"><a href="#5-3-功能：批量创建短链接" class="headerlink" title="5.3 功能：批量创建短链接"></a>5.3 功能：批量创建短链接</h3><p><strong>请求：</strong> <code>POST /api/short-link/admin/v1/create/batch</code><br><strong>请求体：</strong> <code>ShortLinkBatchCreateReqDTO &#123; originUrls[], describes[], gid, ... &#125;</code></p>
+<p><strong>响应：</strong> 直接写入 HTTP Response，返回 Excel 文件流（EasyExcel 导出）</p>
+<p><strong>执行链：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">admin:ShortLinkController.batchCreateShortLink()</span><br><span class="line">  └─ ShortLinkActualRemoteService.batchCreateShortLink() [OpenFeign]</span><br><span class="line">       └─ project:ShortLinkServiceImpl.batchCreateShortLink()</span><br><span class="line">            └─ 遍历 originUrls，逐个调用 createShortLink()</span><br><span class="line">            └─ 返回 ShortLinkBatchCreateRespDTO &#123; total, baseLinkInfos[] &#125;</span><br><span class="line">  └─ EasyExcelWebUtil.write(response, ...) 将结果写入 Excel 并返回文件流</span><br></pre></td></tr></table></figure>
+
+<p><strong>涉及类：</strong></p>
+<ul>
+<li><code>EasyExcelWebUtil</code>：封装 EasyExcel 写出到 HttpServletResponse 的工具类</li>
+<li><code>ShortLinkBaseInfoRespDTO</code>：Excel 导出的行数据 DTO（含 fullShortUrl, originUrl, describe）</li>
+</ul>
+<h3 id="5-4-功能：修改短链接"><a href="#5-4-功能：修改短链接" class="headerlink" title="5.4 功能：修改短链接"></a>5.4 功能：修改短链接</h3><p><strong>请求：</strong> <code>POST /api/short-link/admin/v1/update</code><br><strong>请求体：</strong> <code>ShortLinkUpdateReqDTO &#123; fullShortUrl, originGid, gid, originUrl, validDateType, validDate, describe &#125;</code></p>
+<p><strong>响应：</strong> <code>Result&lt;Void&gt;</code></p>
+<p><strong>执行链：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">admin:ShortLinkController.updateShortLink()</span><br><span class="line">  └─ ShortLinkActualRemoteService.updateShortLink() [OpenFeign]</span><br><span class="line">       └─ project:ShortLinkServiceImpl.updateShortLink()</span><br><span class="line">            ├─ verificationWhitelist(originUrl)</span><br><span class="line">            ├─ 查询原记录（gid=originGid, fullShortUrl, delFlag=0, enableStatus=0）</span><br><span class="line">            │</span><br><span class="line">            ├─ 情况A：gid 未变 → 直接 UPDATE t_link 字段</span><br><span class="line">            │</span><br><span class="line">            └─ 情况B：gid 发生变化（跨分组移动）</span><br><span class="line">                 ├─ RReadWriteLock(LOCK_GID_UPDATE_KEY).writeLock() 加写锁</span><br><span class="line">                 │   （防止统计消费者读到脏数据）</span><br><span class="line">                 ├─ 逻辑删除旧记录（delFlag=1, delTime=当前时间戳）</span><br><span class="line">                 ├─ INSERT 新记录（新 gid）</span><br><span class="line">                 └─ 更新 t_link_goto 表的 gid 字段</span><br><span class="line">            │</span><br><span class="line">            └─ 缓存处理：originUrl/validDate/validDateType 变化时</span><br><span class="line">                 删除 Redis GOTO_SHORT_LINK_KEY</span><br><span class="line">                 如果原链接已过期且新链接有效，同时删除 GOTO_IS_NULL_SHORT_LINK_KEY</span><br></pre></td></tr></table></figure>
+
+<p><strong>涉及类：</strong></p>
+<ul>
+<li><code>RReadWriteLock</code>（Redisson）：跨分组移动时加写锁，与统计消费者的读锁形成互斥，保证数据一致性</li>
+<li><code>VailDateTypeEnum</code>：有效期类型枚举（PERMANENT&#x3D;永久，CUSTOM&#x3D;自定义）</li>
+</ul>
+<h3 id="5-5-功能：分页查询短链接"><a href="#5-5-功能：分页查询短链接" class="headerlink" title="5.5 功能：分页查询短链接"></a>5.5 功能：分页查询短链接</h3><p><strong>请求：</strong> <code>GET /api/short-link/admin/v1/page?gid=&amp;orderTag=&amp;current=&amp;size=</code></p>
+<p><strong>响应：</strong> <code>Result&lt;Page&lt;ShortLinkPageRespDTO&gt;&gt;</code></p>
+<p><strong>执行链：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">admin:ShortLinkController.pageShortLink()</span><br><span class="line">  └─ ShortLinkActualRemoteService.pageShortLink(gid, orderTag, current, size) [OpenFeign]</span><br><span class="line">       └─ project:ShortLinkServiceImpl.pageShortLink()</span><br><span class="line">            └─ ShortLinkMapper.pageLink(requestParam)</span><br><span class="line">                 SQL: SELECT * FROM t_link WHERE gid=? AND del_flag=0 AND enable_status=0</span><br><span class="line">                      ORDER BY &#123;orderTag&#125; LIMIT &#123;size&#125; OFFSET &#123;offset&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>涉及类：</strong></p>
+<ul>
+<li><code>ShortLinkPageReqDTO</code>：分页请求 DTO（gid, orderTag, current, size）</li>
+<li><code>ShortLinkPageRespDTO</code>：分页响应 DTO（含 fullShortUrl, originUrl, favicon, totalPv 等）</li>
+<li><code>ShortLinkMapper.pageLink()</code>：自定义 XML SQL，支持按访问量、今日PV等字段排序</li>
+</ul>
+<h3 id="5-6-功能：获取-URL-网站标题"><a href="#5-6-功能：获取-URL-网站标题" class="headerlink" title="5.6 功能：获取 URL 网站标题"></a>5.6 功能：获取 URL 网站标题</h3><p><strong>请求：</strong> <code>GET /api/short-link/admin/v1/title?url=&#123;url&#125;</code></p>
+<p><strong>响应：</strong> <code>Result&lt;String&gt;</code> — 网站 <code>&lt;title&gt;</code> 标签内容</p>
+<p><strong>执行链：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">admin:UrlTitleController.getTitleByUrl()</span><br><span class="line">  └─ ShortLinkActualRemoteService.getTitleByUrl() [OpenFeign]</span><br><span class="line">       └─ project:UrlTitleController.getTitleByUrl()</span><br><span class="line">            └─ UrlTitleServiceImpl.getTitleByUrl()</span><br><span class="line">                 └─ Jsoup.connect(url).get() 抓取 HTML</span><br><span class="line">                      解析 &lt;title&gt; 标签返回</span><br></pre></td></tr></table></figure>
+
+<p>前端在创建短链接时调用此接口，自动填充描述字段。</p>
+<hr>
+<h2 id="6-模块五：短链接跳转（project-跳转）"><a href="#6-模块五：短链接跳转（project-跳转）" class="headerlink" title="6. 模块五：短链接跳转（project - 跳转）"></a>6. 模块五：短链接跳转（project - 跳转）</h2><p>后端 Controller：<code>project/controller/ShortLinkController.java</code><br>后端 Service：<code>project/service/impl/ShortLinkServiceImpl.java</code></p>
+<h3 id="6-1-功能：短链接跳转原始链接"><a href="#6-1-功能：短链接跳转原始链接" class="headerlink" title="6.1 功能：短链接跳转原始链接"></a>6.1 功能：短链接跳转原始链接</h3><p><strong>请求：</strong> <code>GET /&#123;short-uri&#125;</code>（例：<code>GET /abc123</code>）<br>此请求由网关路由到 project 服务（匹配 <code>/api/short-link/**</code> 之外的路径兜底处理）</p>
+<p><strong>响应：</strong> HTTP 302 重定向到原始 URL；若链接不存在或已过期，重定向到 <code>/page/notfound</code></p>
+<p><strong>执行链（完整防穿透流程）：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line">project:ShortLinkController.restoreUrl(shortUri)</span><br><span class="line">  └─ ShortLinkServiceImpl.restoreUrl()</span><br><span class="line">       │</span><br><span class="line">       ├─ 1. 构造 fullShortUrl = serverName + port + &quot;/&quot; + shortUri</span><br><span class="line">       │</span><br><span class="line">       ├─ 2. Redis.get(GOTO_SHORT_LINK_KEY:&#123;fullShortUrl&#125;)</span><br><span class="line">       │       命中 → 记录统计 → 302 重定向 → 结束</span><br><span class="line">       │</span><br><span class="line">       ├─ 3. RBloomFilter.contains(fullShortUrl)</span><br><span class="line">       │       不含 → 302 重定向到 /page/notfound → 结束</span><br><span class="line">       │       （防止不存在的链接穿透到数据库）</span><br><span class="line">       │</span><br><span class="line">       ├─ 4. Redis.get(GOTO_IS_NULL_SHORT_LINK_KEY:&#123;fullShortUrl&#125;)</span><br><span class="line">       │       命中（值为&quot;-&quot;）→ 302 重定向到 /page/notfound → 结束</span><br><span class="line">       │       （空值缓存，防止恶意请求反复查库）</span><br><span class="line">       │</span><br><span class="line">       ├─ 5. RLock(LOCK_GOTO_SHORT_LINK_KEY:&#123;fullShortUrl&#125;) 加锁（防缓存击穿）</span><br><span class="line">       │</span><br><span class="line">       ├─ 6. 双重检查 Redis（步骤2、4 再查一次）</span><br><span class="line">       │</span><br><span class="line">       ├─ 7. ShortLinkGotoMapper.selectOne(fullShortUrl) 查路由表获取 gid</span><br><span class="line">       │       gid=null → 设置空值缓存(30min) → 重定向 notfound</span><br><span class="line">       │</span><br><span class="line">       ├─ 8. ShortLinkMapper.selectOne(gid=?, fullShortUrl=?, delFlag=0, enableStatus=0)</span><br><span class="line">       │       null 或已过期 → 设置空值缓存 → 重定向 notfound</span><br><span class="line">       │</span><br><span class="line">       ├─ 9. 写入 Redis 缓存（GOTO_SHORT_LINK_KEY:&#123;fullShortUrl&#125; → originUrl）</span><br><span class="line">       │</span><br><span class="line">       ├─ 10. buildLinkStatsRecordAndSetUser() 构建统计记录</span><br><span class="line">       │        ├─ Cookie 中读取 &quot;uv&quot; 标识（无则生成UUID写入Cookie）</span><br><span class="line">       │        ├─ Redis.sadd(UV_KEY:&#123;fullShortUrl&#125;, uv) 判断是否首次访问</span><br><span class="line">       │        ├─ Redis.sadd(UIP_KEY:&#123;fullShortUrl&#125;, ip) 判断是否新 IP</span><br><span class="line">       │        └─ LinkUtil 解析 OS、浏览器、设备、网络类型</span><br><span class="line">       │</span><br><span class="line">       ├─ 11. shortLinkStats(statsRecord)</span><br><span class="line">       │        └─ ShortLinkStatsSaveProducer.send() → Redis Stream MQ</span><br><span class="line">       │</span><br><span class="line">       └─ 12. 302 重定向到 originUrl</span><br></pre></td></tr></table></figure>
+
+<p><strong>涉及类：</strong></p>
+<ul>
+<li><code>ShortLinkGotoDO</code> &#x2F; <code>ShortLinkGotoMapper</code>：路由表，以 <code>fullShortUrl</code> 为分片键，存储 <code>fullShortUrl→gid</code> 映射。由于 <code>t_link</code> 以 <code>gid</code> 分片，跳转时不知道 gid，必须先查路由表</li>
+<li><code>ShortLinkNotfoundController</code>：<code>@Controller</code>，处理 <code>/page/notfound</code>，返回 Thymeleaf 模板 <code>notfound.html</code></li>
+<li><code>LinkUtil</code>：工具类，解析请求中的真实 IP（X-Forwarded-For）、操作系统（UA）、浏览器、设备、网络类型</li>
+<li><code>ShortLinkStatsSaveProducer</code>：统计数据生产者，将 <code>ShortLinkStatsRecordDTO</code> 序列化后发送到 Redis Stream</li>
+<li><code>ShortLinkStatsRecordDTO</code>：统计记录 DTO（fullShortUrl, uv, uvFirstFlag, uipFirstFlag, remoteAddr, os, browser, device, network, currentDate）</li>
+<li><code>RBloomFilter</code>、<code>RLock</code>（Redisson）：防穿透、防击穿</li>
+</ul>
+<p><strong>为什么需要 t_link_goto 路由表？</strong><br><code>t_link</code> 表以 <code>gid</code> 为分片键，查询时必须携带 gid 才能定位到正确分片。而短链接跳转时只有 <code>fullShortUrl</code>，不知道 gid，因此需要以 <code>fullShortUrl</code> 为分片键的路由表 <code>t_link_goto</code>，先查出 gid，再查 <code>t_link</code>。</p>
+<hr>
+<h2 id="7-模块六：回收站管理（admin-project）"><a href="#7-模块六：回收站管理（admin-project）" class="headerlink" title="7. 模块六：回收站管理（admin + project）"></a>7. 模块六：回收站管理（admin + project）</h2><p>前端 API 文件：<code>console-vue/src/api/modules/smallLinkPage.js</code><br>Admin Controller：<code>admin/controller/RecycleBinController.java</code><br>Project Controller：<code>project/controller/RecycleBinController.java</code><br>Project Service：<code>project/service/impl/RecycleBinServiceImpl.java</code></p>
+<h3 id="7-1-功能：移入回收站"><a href="#7-1-功能：移入回收站" class="headerlink" title="7.1 功能：移入回收站"></a>7.1 功能：移入回收站</h3><p><strong>请求：</strong> <code>POST /api/short-link/admin/v1/recycle-bin/save</code><br><strong>请求体：</strong> <code>RecycleBinSaveReqDTO &#123; fullShortUrl, gid &#125;</code></p>
+<p><strong>响应：</strong> <code>Result&lt;Void&gt;</code></p>
+<p><strong>执行链：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">admin:RecycleBinController.saveRecycleBin()</span><br><span class="line">  └─ ShortLinkActualRemoteService.saveRecycleBin() [OpenFeign]</span><br><span class="line">       └─ project:RecycleBinServiceImpl.saveRecycleBin()</span><br><span class="line">            ├─ ShortLinkMapper.update(enableStatus=1, WHERE fullShortUrl=? AND gid=? AND enableStatus=0)</span><br><span class="line">            └─ Redis.delete(GOTO_SHORT_LINK_KEY:&#123;fullShortUrl&#125;)</span><br><span class="line">                 （使缓存失效，跳转时会返回 notfound）</span><br></pre></td></tr></table></figure>
+
+<p><code>enableStatus=1</code> 表示链接被禁用，跳转时因查不到 <code>enable_status=0</code> 的记录而跳转到 notfound 页面。</p>
+<h3 id="7-2-功能：分页查询回收站"><a href="#7-2-功能：分页查询回收站" class="headerlink" title="7.2 功能：分页查询回收站"></a>7.2 功能：分页查询回收站</h3><p><strong>请求：</strong> <code>GET /api/short-link/admin/v1/recycle-bin/page?current=&amp;size=</code></p>
+<p><strong>响应：</strong> <code>Result&lt;Page&lt;ShortLinkPageRespDTO&gt;&gt;</code></p>
+<p><strong>执行链：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">admin:RecycleBinController.pageShortLink()</span><br><span class="line">  └─ admin:RecycleBinServiceImpl.pageRecycleBinShortLink()</span><br><span class="line">       ├─ GroupMapper.selectList(username=当前用户, delFlag=0) 获取该用户所有 gid</span><br><span class="line">       ├─ 将 gidList 填入 requestParam</span><br><span class="line">       └─ ShortLinkActualRemoteService.pageRecycleBinShortLink(gidList, current, size) [OpenFeign]</span><br><span class="line">            └─ project:RecycleBinServiceImpl.pageShortLink()</span><br><span class="line">                 └─ ShortLinkMapper.pageRecycleBinLink()</span><br><span class="line">                      SQL: SELECT * FROM t_link WHERE gid IN(...) AND enable_status=1 AND del_flag=0</span><br></pre></td></tr></table></figure>
+
+<p><strong>注意：</strong> admin 端的 <code>RecycleBinServiceImpl</code> 与 project 端职责不同：</p>
+<ul>
+<li>admin 端：负责获取当前用户的 gid 列表，然后调用 project</li>
+<li>project 端：负责实际的分页查询</li>
+</ul>
+<h3 id="7-3-功能：恢复短链接"><a href="#7-3-功能：恢复短链接" class="headerlink" title="7.3 功能：恢复短链接"></a>7.3 功能：恢复短链接</h3><p><strong>请求：</strong> <code>POST /api/short-link/admin/v1/recycle-bin/recover</code><br><strong>请求体：</strong> <code>RecycleBinRecoverReqDTO &#123; fullShortUrl, gid &#125;</code></p>
+<p><strong>响应：</strong> <code>Result&lt;Void&gt;</code></p>
+<p><strong>执行链：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">admin:RecycleBinController.recoverRecycleBin()</span><br><span class="line">  └─ ShortLinkActualRemoteService.recoverRecycleBin() [OpenFeign]</span><br><span class="line">       └─ project:RecycleBinServiceImpl.recoverRecycleBin()</span><br><span class="line">            ├─ ShortLinkMapper.update(enableStatus=0, WHERE fullShortUrl=? AND gid=? AND enableStatus=1)</span><br><span class="line">            └─ Redis.delete(GOTO_IS_NULL_SHORT_LINK_KEY:&#123;fullShortUrl&#125;)</span><br><span class="line">                 （删除空值缓存，使链接可以重新被访问）</span><br></pre></td></tr></table></figure>
+
+<h3 id="7-4-功能：永久删除短链接"><a href="#7-4-功能：永久删除短链接" class="headerlink" title="7.4 功能：永久删除短链接"></a>7.4 功能：永久删除短链接</h3><p><strong>请求：</strong> <code>POST /api/short-link/admin/v1/recycle-bin/remove</code><br><strong>请求体：</strong> <code>RecycleBinRemoveReqDTO &#123; fullShortUrl, gid &#125;</code></p>
+<p><strong>响应：</strong> <code>Result&lt;Void&gt;</code></p>
+<p><strong>执行链：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">admin:RecycleBinController.removeRecycleBin()</span><br><span class="line">  └─ ShortLinkActualRemoteService.removeRecycleBin() [OpenFeign]</span><br><span class="line">       └─ project:RecycleBinServiceImpl.removeRecycleBin()</span><br><span class="line">            └─ ShortLinkMapper.update(delFlag=1, delTime=当前时间戳,</span><br><span class="line">                                      WHERE fullShortUrl=? AND gid=? AND enableStatus=1 AND delTime=0)</span><br></pre></td></tr></table></figure>
+
+<p>物理上并非真正删除行，而是设置 <code>del_flag=1</code> 和 <code>del_time=时间戳</code>。<br><code>t_link</code> 的唯一索引为 <code>(full_short_url, del_time)</code>，<code>del_time=0</code> 时表示未删除，使用时间戳允许同一短链接被多次创建和删除。</p>
+<hr>
+<h2 id="8-模块七：数据统计与监控（admin-project）"><a href="#8-模块七：数据统计与监控（admin-project）" class="headerlink" title="8. 模块七：数据统计与监控（admin + project）"></a>8. 模块七：数据统计与监控（admin + project）</h2><p>前端 API 文件：<code>console-vue/src/api/modules/group.js</code>、<code>smallLinkPage.js</code><br>Admin Controller：<code>admin/controller/ShortLinkStatsController.java</code><br>Project Controller：<code>project/controller/ShortLinkStatsController.java</code><br>Project Service：<code>project/service/impl/ShortLinkStatsServiceImpl.java</code></p>
+<h3 id="8-1-功能：查询单个短链接统计数据"><a href="#8-1-功能：查询单个短链接统计数据" class="headerlink" title="8.1 功能：查询单个短链接统计数据"></a>8.1 功能：查询单个短链接统计数据</h3><p><strong>请求：</strong> <code>GET /api/short-link/admin/v1/stats?fullShortUrl=&amp;gid=&amp;enableStatus=&amp;startDate=&amp;endDate=</code></p>
+<p><strong>响应：</strong> <code>Result&lt;ShortLinkStatsRespDTO&gt;</code></p>
+<p><code>ShortLinkStatsRespDTO</code> 包含以下维度数据：</p>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>pv &#x2F; uv &#x2F; uip</td>
+<td>总访问量 &#x2F; 独立访客数 &#x2F; 独立IP数</td>
+</tr>
+<tr>
+<td>daily</td>
+<td>按日期的每日 pv&#x2F;uv&#x2F;uip 列表</td>
+</tr>
+<tr>
+<td>localeCnStats</td>
+<td>国内地区访问分布（省份+占比）</td>
+</tr>
+<tr>
+<td>hourStats</td>
+<td>24小时访问分布（数组，下标&#x3D;小时）</td>
+</tr>
+<tr>
+<td>weekdayStats</td>
+<td>一周7天访问分布（1&#x3D;周一）</td>
+</tr>
+<tr>
+<td>topIpStats</td>
+<td>高频访问 IP Top 5</td>
+</tr>
+<tr>
+<td>browserStats</td>
+<td>浏览器类型分布</td>
+</tr>
+<tr>
+<td>osStats</td>
+<td>操作系统类型分布</td>
+</tr>
+<tr>
+<td>uvTypeStats</td>
+<td>新老访客比例</td>
+</tr>
+<tr>
+<td>deviceStats</td>
+<td>设备类型分布</td>
+</tr>
+<tr>
+<td>networkStats</td>
+<td>访问网络类型分布（WiFi&#x2F;移动网络）</td>
+</tr>
+</tbody></table>
+<p><strong>执行链：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">admin:ShortLinkStatsController.shortLinkStats()</span><br><span class="line">  └─ ShortLinkActualRemoteService.oneShortLinkStats() [OpenFeign]</span><br><span class="line">       └─ project:ShortLinkStatsController.shortLinkStats()</span><br><span class="line">            └─ ShortLinkStatsServiceImpl.oneShortLinkStats()</span><br><span class="line">                 ├─ checkGroupBelongToUser(gid) 校验分组归属</span><br><span class="line">                 ├─ LinkAccessStatsMapper.listStatsByShortLink() → t_link_access_stats</span><br><span class="line">                 ├─ LinkAccessLogsMapper.findPvUvUidStatsByShortLink() → t_link_access_logs</span><br><span class="line">                 ├─ LinkLocaleStatsMapper.listLocaleByShortLink() → t_link_locale_stats</span><br><span class="line">                 ├─ LinkAccessStatsMapper.listHourStatsByShortLink() 小时分布</span><br><span class="line">                 ├─ LinkAccessLogsMapper.listTopIpByShortLink() Top IP</span><br><span class="line">                 ├─ LinkAccessStatsMapper.listWeekdayStatsByShortLink() 星期分布</span><br><span class="line">                 ├─ LinkBrowserStatsMapper.listBrowserStatsByShortLink() → t_link_browser_stats</span><br><span class="line">                 ├─ LinkOsStatsMapper.listOsStatsByShortLink() → t_link_os_stats</span><br><span class="line">                 ├─ LinkAccessLogsMapper.findUvTypeCntByShortLink() 新老访客</span><br><span class="line">                 ├─ LinkDeviceStatsMapper.listDeviceStatsByShortLink() → t_link_device_stats</span><br><span class="line">                 └─ LinkNetworkStatsMapper.listNetworkStatsByShortLink() → t_link_network_stats</span><br></pre></td></tr></table></figure>
+
+<p><strong>涉及类（统计相关 Mapper 对应数据库表）：</strong></p>
+<table>
+<thead>
+<tr>
+<th>Mapper</th>
+<th>数据表</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>LinkAccessStatsMapper</code></td>
+<td><code>t_link_access_stats</code></td>
+<td>按日期、小时、星期聚合的 pv&#x2F;uv&#x2F;uip</td>
+</tr>
+<tr>
+<td><code>LinkAccessLogsMapper</code></td>
+<td><code>t_link_access_logs</code></td>
+<td>每次访问的详细原始记录（IP、浏览器、OS等）</td>
+</tr>
+<tr>
+<td><code>LinkLocaleStatsMapper</code></td>
+<td><code>t_link_locale_stats</code></td>
+<td>按省份聚合的访问量</td>
+</tr>
+<tr>
+<td><code>LinkBrowserStatsMapper</code></td>
+<td><code>t_link_browser_stats</code></td>
+<td>按浏览器类型聚合</td>
+</tr>
+<tr>
+<td><code>LinkOsStatsMapper</code></td>
+<td><code>t_link_os_stats</code></td>
+<td>按操作系统聚合</td>
+</tr>
+<tr>
+<td><code>LinkDeviceStatsMapper</code></td>
+<td><code>t_link_device_stats</code></td>
+<td>按设备类型聚合</td>
+</tr>
+<tr>
+<td><code>LinkNetworkStatsMapper</code></td>
+<td><code>t_link_network_stats</code></td>
+<td>按网络类型聚合</td>
+</tr>
+<tr>
+<td><code>LinkStatsTodayMapper</code></td>
+<td><code>t_link_stats_today</code></td>
+<td>当天 pv&#x2F;uv&#x2F;uip（由消费者写入）</td>
+</tr>
+</tbody></table>
+<p><code>checkGroupBelongToUser()</code> 方法通过 <code>UserContext.getUsername()</code> + <code>gid</code> 查询 <code>t_group</code>，确保用户只能查看自己分组的统计数据。</p>
+<h3 id="8-2-功能：查询分组统计数据"><a href="#8-2-功能：查询分组统计数据" class="headerlink" title="8.2 功能：查询分组统计数据"></a>8.2 功能：查询分组统计数据</h3><p><strong>请求：</strong> <code>GET /api/short-link/admin/v1/stats/group?gid=&amp;startDate=&amp;endDate=</code></p>
+<p><strong>响应：</strong> <code>Result&lt;ShortLinkStatsRespDTO&gt;</code>（结构同 8.1）</p>
+<p><strong>执行链：</strong> 与 8.1 类似，所有 Mapper 方法改为 <code>ByGroup</code> 版本（不过滤 fullShortUrl，只过滤 gid），聚合该分组下所有短链接的统计数据。</p>
+<h3 id="8-3-功能：查询单个短链接访问记录（分页）"><a href="#8-3-功能：查询单个短链接访问记录（分页）" class="headerlink" title="8.3 功能：查询单个短链接访问记录（分页）"></a>8.3 功能：查询单个短链接访问记录（分页）</h3><p><strong>请求：</strong> <code>GET /api/short-link/admin/v1/stats/access-record?fullShortUrl=&amp;gid=&amp;startDate=&amp;endDate=&amp;current=&amp;size=</code></p>
+<p><strong>响应：</strong> <code>Result&lt;Page&lt;ShortLinkStatsAccessRecordRespDTO&gt;&gt;</code></p>
+<p>每条记录包含：访问时间、IP、浏览器、OS、设备、地区、用户标识（UV cookie）、新&#x2F;老访客类型</p>
+<p><strong>执行链：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">project:ShortLinkStatsServiceImpl.shortLinkStatsAccessRecord()</span><br><span class="line">  ├─ checkGroupBelongToUser(gid)</span><br><span class="line">  ├─ LinkAccessLogsMapper.selectPage() 分页查 t_link_access_logs</span><br><span class="line">  └─ LinkAccessLogsMapper.selectUvTypeByUsers()</span><br><span class="line">       根据 user（UV标识）判断是否为首次访问，标记新访客/老访客</span><br></pre></td></tr></table></figure>
+
+<h3 id="8-4-功能：查询分组访问记录（分页）"><a href="#8-4-功能：查询分组访问记录（分页）" class="headerlink" title="8.4 功能：查询分组访问记录（分页）"></a>8.4 功能：查询分组访问记录（分页）</h3><p><strong>请求：</strong> <code>GET /api/short-link/admin/v1/stats/access-record/group?gid=&amp;startDate=&amp;endDate=&amp;current=&amp;size=</code></p>
+<p><strong>响应：</strong> <code>Result&lt;Page&lt;ShortLinkStatsAccessRecordRespDTO&gt;&gt;</code></p>
+<p><strong>执行链：</strong> 与 8.3 类似，通过 <code>LinkAccessLogsMapper.selectGroupPage()</code> 查询整个分组的访问记录。</p>
+<hr>
+<h2 id="9-模块八：消息队列与统计异步写入"><a href="#9-模块八：消息队列与统计异步写入" class="headerlink" title="9. 模块八：消息队列与统计异步写入"></a>9. 模块八：消息队列与统计异步写入</h2><h3 id="9-1-架构说明"><a href="#9-1-架构说明" class="headerlink" title="9.1 架构说明"></a>9.1 架构说明</h3><p>短链接跳转是高并发场景，每次跳转若同步写入多张统计表（access_stats、locale_stats、browser_stats 等共 8 张表）会严重影响响应时间。<br>因此采用 <strong>Redis Stream</strong> 作为消息队列，跳转时只发一条消息，由消费者异步持久化统计数据。</p>
+<h3 id="9-2-生产者：ShortLinkStatsSaveProducer"><a href="#9-2-生产者：ShortLinkStatsSaveProducer" class="headerlink" title="9.2 生产者：ShortLinkStatsSaveProducer"></a>9.2 生产者：ShortLinkStatsSaveProducer</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 发送统计记录到 Redis Stream</span></span><br><span class="line">stringRedisTemplate.opsForStream().add(SHORT_LINK_STATS_STREAM_TOPIC_KEY, producerMap);</span><br><span class="line"><span class="comment">// Key: short-link:stats:stream:topic</span></span><br><span class="line"><span class="comment">// Value: &#123; &quot;statsRecord&quot;: JSON序列化的 ShortLinkStatsRecordDTO &#125;</span></span><br></pre></td></tr></table></figure>
+
+<p>调用时机：<code>ShortLinkServiceImpl.shortLinkStats()</code> 在每次跳转成功后调用。</p>
+<h3 id="9-3-消费者：ShortLinkStatsSaveConsumer"><a href="#9-3-消费者：ShortLinkStatsSaveConsumer" class="headerlink" title="9.3 消费者：ShortLinkStatsSaveConsumer"></a>9.3 消费者：ShortLinkStatsSaveConsumer</h3><p>实现 <code>StreamListener&lt;String, MapRecord&lt;String, String, String&gt;&gt;</code>，由 <code>RedisStreamConfiguration</code> 配置绑定到 Stream Topic 和消费者组。</p>
+<p><strong>消费流程：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">onMessage(MapRecord message)</span><br><span class="line">  ├─ MessageQueueIdempotentHandler.isMessageBeingConsumed(messageId)</span><br><span class="line">  │    Redis.setIfAbsent(idempotent:&#123;messageId&#125;, &quot;0&quot;, 2min)</span><br><span class="line">  │    返回 false → 首次消费，继续</span><br><span class="line">  │    返回 true  → 已处理过</span><br><span class="line">  │         isAccomplish() == true  → 直接return（已完成）</span><br><span class="line">  │         isAccomplish() == false → 抛异常触发重试（流程未完成）</span><br><span class="line">  │</span><br><span class="line">  ├─ actualSaveShortLinkStats(statsRecord)</span><br><span class="line">  │    ├─ RReadWriteLock(LOCK_GID_UPDATE_KEY).readLock() 加读锁</span><br><span class="line">  │    │   （与 updateShortLink 跨分组时的写锁互斥，保证数据一致性）</span><br><span class="line">  │    │</span><br><span class="line">  │    ├─ ShortLinkGotoMapper.selectOne() 查 gid</span><br><span class="line">  │    ├─ LinkAccessStatsMapper.shortLinkStats() 写 t_link_access_stats（upsert）</span><br><span class="line">  │    ├─ 调高德地图IP定位 API 获取省市信息</span><br><span class="line">  │    ├─ LinkLocaleStatsMapper.shortLinkLocaleState() 写 t_link_locale_stats</span><br><span class="line">  │    ├─ LinkOsStatsMapper.shortLinkOsState() 写 t_link_os_stats</span><br><span class="line">  │    ├─ LinkBrowserStatsMapper.shortLinkBrowserState() 写 t_link_browser_stats</span><br><span class="line">  │    ├─ LinkDeviceStatsMapper.shortLinkDeviceState() 写 t_link_device_stats</span><br><span class="line">  │    ├─ LinkNetworkStatsMapper.shortLinkNetworkState() 写 t_link_network_stats</span><br><span class="line">  │    ├─ LinkAccessLogsMapper.insert() 写 t_link_access_logs（明细记录）</span><br><span class="line">  │    ├─ ShortLinkMapper.incrementStats() 累加 t_link 的 total_pv/uv/uip</span><br><span class="line">  │    └─ LinkStatsTodayMapper.shortLinkTodayState() 写 t_link_stats_today（今日统计）</span><br><span class="line">  │</span><br><span class="line">  ├─ Redis Stream 删除该消息（ack + delete）</span><br><span class="line">  └─ MessageQueueIdempotentHandler.setAccomplish(messageId) 标记完成</span><br></pre></td></tr></table></figure>
+
+<h3 id="9-4-消息幂等处理：MessageQueueIdempotentHandler"><a href="#9-4-消息幂等处理：MessageQueueIdempotentHandler" class="headerlink" title="9.4 消息幂等处理：MessageQueueIdempotentHandler"></a>9.4 消息幂等处理：MessageQueueIdempotentHandler</h3><p>使用 Redis String 实现两阶段幂等：</p>
+<table>
+<thead>
+<tr>
+<th>操作</th>
+<th>Redis Key</th>
+<th>Value</th>
+<th>TTL</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>开始消费</td>
+<td><code>short-link:idempotent:&#123;messageId&#125;</code></td>
+<td><code>&quot;0&quot;</code></td>
+<td>2分钟</td>
+</tr>
+<tr>
+<td>消费完成</td>
+<td><code>short-link:idempotent:&#123;messageId&#125;</code></td>
+<td><code>&quot;1&quot;</code></td>
+<td>2分钟</td>
+</tr>
+</tbody></table>
+<ul>
+<li><code>isMessageBeingConsumed()</code>：<code>setIfAbsent</code> 返回 false 表示 key 已存在（已在消费或已完成）</li>
+<li><code>isAccomplish()</code>：value &#x3D;&#x3D; “1” 表示已完成，直接跳过</li>
+<li><code>delMessageProcessed()</code>：消费异常时删除 key，允许消息队列重试</li>
+</ul>
+<h3 id="9-5-延迟消费者（已废弃）：DelayShortLinkStatsConsumer"><a href="#9-5-延迟消费者（已废弃）：DelayShortLinkStatsConsumer" class="headerlink" title="9.5 延迟消费者（已废弃）：DelayShortLinkStatsConsumer"></a>9.5 延迟消费者（已废弃）：DelayShortLinkStatsConsumer</h3><p>标注了 <code>@Deprecated</code>，是早期基于 Redisson <code>RDelayedQueue</code> 的实现方案，<code>afterPropertiesSet()</code> 中已注释掉 <code>onMessage()</code> 调用，当前系统不再使用。</p>
+<hr>
+<h2 id="10-模块九：前端路由与-Axios-拦截层"><a href="#10-模块九：前端路由与-Axios-拦截层" class="headerlink" title="10. 模块九：前端路由与 Axios 拦截层"></a>10. 模块九：前端路由与 Axios 拦截层</h2><h3 id="10-1-Axios-实例配置（api-axios-js）"><a href="#10-1-Axios-实例配置（api-axios-js）" class="headerlink" title="10.1 Axios 实例配置（api&#x2F;axios.js）"></a>10.1 Axios 实例配置（api&#x2F;axios.js）</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">baseURL = &quot;/api/short-link/admin/v1&quot;</span><br><span class="line">超时：15000ms</span><br></pre></td></tr></table></figure>
+
+<p><strong>请求拦截器：</strong> 自动从 <code>auth.js</code>（localStorage）读取 <code>token</code> 和 <code>username</code>，写入请求 Header：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">config.headers.Token = token</span><br><span class="line">config.headers.Username = username</span><br></pre></td></tr></table></figure>
+
+<p>Gateway 的 <code>TokenValidateGatewayFilterFactory</code> 读取这两个 Header 进行 Token 校验。</p>
+<p><strong>响应拦截器：</strong></p>
+<ul>
+<li>HTTP 200 → <code>Promise.resolve(res)</code></li>
+<li>HTTP 401 → 清除 localStorage 中的 token，强制跳转 <code>/login</code></li>
+</ul>
+<h3 id="10-2-路由守卫（router-index-js）"><a href="#10-2-路由守卫（router-index-js）" class="headerlink" title="10.2 路由守卫（router&#x2F;index.js）"></a>10.2 路由守卫（router&#x2F;index.js）</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">router.beforeEach(async (to, from, next)</span><br><span class="line">  ├─ 从 localStorage 读取 token/username 并同步到 cookie（auth.js）</span><br><span class="line">  ├─ to.path === &#x27;/login&#x27; → 直接放行</span><br><span class="line">  ├─ token 存在 → 放行</span><br><span class="line">  └─ token 不存在 → 重定向到 /login</span><br></pre></td></tr></table></figure>
+
+<p><strong>路由结构：</strong></p>
+<table>
+<thead>
+<tr>
+<th>路径</th>
+<th>组件</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>/login</code></td>
+<td><code>LoginIndex.vue</code></td>
+<td>登录页</td>
+</tr>
+<tr>
+<td><code>/home</code></td>
+<td><code>HomeIndex.vue</code></td>
+<td>主框架（含侧边栏）</td>
+</tr>
+<tr>
+<td><code>/home/space</code></td>
+<td><code>MySpaceIndex.vue</code></td>
+<td>我的空间（短链接管理）</td>
+</tr>
+<tr>
+<td><code>/home/recycleBin</code></td>
+<td><code>RecycleBinIndex.vue</code></td>
+<td>回收站</td>
+</tr>
+<tr>
+<td><code>/home/account</code></td>
+<td><code>MineIndex.vue</code></td>
+<td>个人中心</td>
+</tr>
+</tbody></table>
+<h3 id="10-3-API-模块划分"><a href="#10-3-API-模块划分" class="headerlink" title="10.3 API 模块划分"></a>10.3 API 模块划分</h3><table>
+<thead>
+<tr>
+<th>文件</th>
+<th>调用的后端接口</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>user.js</code></td>
+<td>注册、登录、退出、查用户信息、检查用户名</td>
+</tr>
+<tr>
+<td><code>group.js</code></td>
+<td>分组 CRUD、排序、分组统计图表、分组访问记录</td>
+</tr>
+<tr>
+<td><code>smallLinkPage.js</code></td>
+<td>短链接分页、创建、批量创建、修改、标题获取、回收站操作、单链统计、单链访问记录</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="11-数据库分片设计"><a href="#11-数据库分片设计" class="headerlink" title="11. 数据库分片设计"></a>11. 数据库分片设计</h2><p>数据库使用 <strong>ShardingSphere</strong> 进行水平分片，分片数均为 <strong>16</strong>（后缀 <code>_0</code> ~ <code>_15</code>）。</p>
+<table>
+<thead>
+<tr>
+<th>逻辑表</th>
+<th>分片数</th>
+<th>分片键</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>t_user</code></td>
+<td>16</td>
+<td><code>username</code></td>
+<td>用户表</td>
+</tr>
+<tr>
+<td><code>t_group</code></td>
+<td>16</td>
+<td><code>username</code></td>
+<td>分组表</td>
+</tr>
+<tr>
+<td><code>t_group_unique</code></td>
+<td>1（不分片）</td>
+<td>-</td>
+<td>gid 唯一性保障表</td>
+</tr>
+<tr>
+<td><code>t_link</code></td>
+<td>16</td>
+<td><code>gid</code></td>
+<td>短链接主表</td>
+</tr>
+<tr>
+<td><code>t_link_goto</code></td>
+<td>16</td>
+<td><code>full_short_url</code></td>
+<td>短链接路由表（gid查找表）</td>
+</tr>
+</tbody></table>
+<p><strong>统计相关表（不分片）：</strong></p>
+<table>
+<thead>
+<tr>
+<th>表名</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>t_link_access_stats</code></td>
+<td>按日期、小时、星期聚合的 pv&#x2F;uv&#x2F;uip</td>
+</tr>
+<tr>
+<td><code>t_link_access_logs</code></td>
+<td>每次访问明细记录</td>
+</tr>
+<tr>
+<td><code>t_link_locale_stats</code></td>
+<td>地区访问统计</td>
+</tr>
+<tr>
+<td><code>t_link_browser_stats</code></td>
+<td>浏览器类型统计</td>
+</tr>
+<tr>
+<td><code>t_link_os_stats</code></td>
+<td>操作系统统计</td>
+</tr>
+<tr>
+<td><code>t_link_device_stats</code></td>
+<td>设备类型统计</td>
+</tr>
+<tr>
+<td><code>t_link_network_stats</code></td>
+<td>网络类型统计</td>
+</tr>
+<tr>
+<td><code>t_link_stats_today</code></td>
+<td>当日 pv&#x2F;uv&#x2F;uip 快照</td>
+</tr>
+</tbody></table>
+<p><strong>分片策略分析：</strong></p>
+<ul>
+<li><code>t_user</code>、<code>t_group</code> 以 <code>username</code> 分片，使同一用户的所有数据落在同一分片，便于按用户查询</li>
+<li><code>t_link</code> 以 <code>gid</code> 分片，使同一分组的所有短链接落在同一分片，便于按分组查询和分页</li>
+<li><code>t_link_goto</code> 以 <code>full_short_url</code> 分片，是跳转场景的专用路由表，以跳转请求的唯一标识作为分片键</li>
+<li><code>t_link</code> 的唯一索引为 <code>(full_short_url, del_time)</code>，<code>del_time=0</code> 代表有效，使用时间戳允许同一短链接被重复创建删除</li>
+</ul>
+<hr>
+<h2 id="12-各模块协调总结"><a href="#12-各模块协调总结" class="headerlink" title="12. 各模块协调总结"></a>12. 各模块协调总结</h2><h3 id="12-1-完整请求流转路径"><a href="#12-1-完整请求流转路径" class="headerlink" title="12.1 完整请求流转路径"></a>12.1 完整请求流转路径</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line">[ 前端 Vue3 ]</span><br><span class="line">    │ axios 请求，Header 携带 token/username</span><br><span class="line">    ▼</span><br><span class="line">[ Gateway 8000 ]</span><br><span class="line">    │ TokenValidateGatewayFilterFactory</span><br><span class="line">    │ → Redis 验证 token</span><br><span class="line">    │ → 向 Header 追加 userId、realName</span><br><span class="line">    │ → Spring Cloud Gateway 路由转发</span><br><span class="line">    ▼</span><br><span class="line">[ Admin 8002 ]                          [ Project 8001 ]</span><br><span class="line">    │ UserTransmitFilter                      │</span><br><span class="line">    │ → 从 Header 解析用户信息               │</span><br><span class="line">    │ → 存入 UserContext(ThreadLocal)         │</span><br><span class="line">    │                                         │</span><br><span class="line">    │ UserFlowRiskControlFilter               │</span><br><span class="line">    │ → Lua 脚本限流（滑动窗口）              │</span><br><span class="line">    │                                         │</span><br><span class="line">    ├─ 用户/分组接口 → 直接操作 MySQL        │</span><br><span class="line">    │                                         │</span><br><span class="line">    └─ 短链接/统计接口                        │</span><br><span class="line">         ShortLinkActualRemoteService         │</span><br><span class="line">         OpenFeign 调用 ──────────────────────┤</span><br><span class="line">                                              │</span><br><span class="line">                              ShortLinkServiceImpl</span><br><span class="line">                              RecycleBinServiceImpl</span><br><span class="line">                              ShortLinkStatsServiceImpl</span><br><span class="line">                                              │</span><br><span class="line">                              ShardingSphere 路由</span><br><span class="line">                                              │</span><br><span class="line">                         ┌────────────────────┤</span><br><span class="line">                         │                    │</span><br><span class="line">                      MySQL                Redis</span><br><span class="line">                   （分片表）          （缓存+MQ+锁）</span><br><span class="line">                                              │</span><br><span class="line">                              Redis Stream Consumer</span><br><span class="line">                              ShortLinkStatsSaveConsumer</span><br><span class="line">                                              │</span><br><span class="line">                                    写入统计相关表</span><br></pre></td></tr></table></figure>
+
+<h3 id="12-2-各模块间的依赖关系"><a href="#12-2-各模块间的依赖关系" class="headerlink" title="12.2 各模块间的依赖关系"></a>12.2 各模块间的依赖关系</h3><table>
+<thead>
+<tr>
+<th>组件</th>
+<th>依赖</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Gateway</td>
+<td>Redis</td>
+<td>读取登录 token 验证</td>
+</tr>
+<tr>
+<td>Admin</td>
+<td>Redis</td>
+<td>用户登录态存储、分布式锁、布隆过滤器、限流</td>
+</tr>
+<tr>
+<td>Admin</td>
+<td>Project（OpenFeign）</td>
+<td>所有短链接&#x2F;回收站&#x2F;统计操作通过 Feign 调用</td>
+</tr>
+<tr>
+<td>Admin</td>
+<td>Nacos</td>
+<td>服务发现，通过 <code>lb://short-link-project</code> 负载均衡</td>
+</tr>
+<tr>
+<td>Project</td>
+<td>Redis</td>
+<td>短链接跳转缓存、UV&#x2F;UIP 去重 Set、Stream MQ</td>
+</tr>
+<tr>
+<td>Project</td>
+<td>Redis Stream</td>
+<td>跳转统计异步写入</td>
+</tr>
+<tr>
+<td>Project</td>
+<td>高德地图 API</td>
+<td>IP 归属地解析（<code>AMAP_REMOTE_URL</code>）</td>
+</tr>
+<tr>
+<td>Project</td>
+<td>ShardingSphere</td>
+<td>数据库分片路由</td>
+</tr>
+<tr>
+<td>Project</td>
+<td>Sentinel</td>
+<td>创建短链接接口限流（<code>@SentinelResource</code>）</td>
+</tr>
+</tbody></table>
+<h3 id="12-3-关键设计决策与类协调"><a href="#12-3-关键设计决策与类协调" class="headerlink" title="12.3 关键设计决策与类协调"></a>12.3 关键设计决策与类协调</h3><p><strong>1. 防缓存穿透（布隆过滤器）</strong>  </p>
+<ul>
+<li><code>RBloomFilter&lt;String&gt; shortUriCreateCachePenetrationBloomFilter</code> 存储所有有效的 <code>fullShortUrl</code>  </li>
+<li>跳转时先查布隆过滤器，不存在则直接返回 notfound，不查数据库  </li>
+<li>注册时 <code>userRegisterCachePenetrationBloomFilter</code> 防止用户名重复查库</li>
+</ul>
+<p><strong>2. 防缓存击穿（分布式锁）</strong>  </p>
+<ul>
+<li><code>RLock(LOCK_GOTO_SHORT_LINK_KEY:&#123;fullShortUrl&#125;)</code> 保证同一短链接缓存失效后，只有一个请求重建缓存，其余请求等锁后直接读缓存</li>
+</ul>
+<p><strong>3. 防缓存雪崩（空值缓存）</strong>  </p>
+<ul>
+<li>对不存在&#x2F;已过期的短链接，写入 <code>GOTO_IS_NULL_SHORT_LINK_KEY:&#123;fullShortUrl&#125;</code> &#x3D; <code>&quot;-&quot;</code> 空值缓存（30分钟）  </li>
+<li>防止大量无效请求击穿数据库</li>
+</ul>
+<p><strong>4. 统计数据一致性（读写锁）</strong>  </p>
+<ul>
+<li><code>updateShortLink</code> 跨分组移动时加 <strong>写锁</strong>  </li>
+<li><code>ShortLinkStatsSaveConsumer</code> 消费统计消息时加 <strong>读锁</strong>  </li>
+<li>两者互斥，保证统计消费时 <code>gid</code> 不会被修改，避免统计数据写入错误分片</li>
+</ul>
+<p><strong>5. 统计幂等性（Redis 两阶段标记）</strong>  </p>
+<ul>
+<li><code>MessageQueueIdempotentHandler</code> 用 <code>setIfAbsent</code> + value 状态（”0”&#x2F;“1”）实现两阶段幂等  </li>
+<li>保证消息队列重试时不会重复写入统计数据</li>
+</ul>
+<p><strong>6. admin 与 project 解耦</strong>  </p>
+<ul>
+<li><code>ShortLinkActualRemoteService</code> 是 admin 模块中的 OpenFeign 客户端接口，声明了对 project 所有接口的调用  </li>
+<li>admin 端的 Controller 对于短链接操作几乎全部透传给 Feign，自身只处理用户和分组的本地逻辑  </li>
+<li><code>aggregation</code> 模块用于将 admin 和 project 打包为单体部署（聚合部署模式），此时 Feign 的 <code>url</code> 配置为 <code>aggregation.remote-url</code> 直连，不走 Nacos</li>
+</ul>
+<p><strong>7. 用户信息传递链路</strong>  </p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">前端 Header: token + username</span><br><span class="line">  → Gateway: 查 Redis 获取完整用户信息，注入 userId + realName 到 Header</span><br><span class="line">    → Admin: UserTransmitFilter 读取 Header → UserContext(ThreadLocal)</span><br><span class="line">      → Service 层: UserContext.getUsername() 获取当前用户</span><br></pre></td></tr></table></figure>
+
+<hr>
+<p><em>文档生成时间：2026-03-12</em><br><em>基于项目源码 <code>shortlink</code>，包含 gateway、admin、project、console-vue 四个模块的完整分析。</em></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>Author: </span><span class="post-copyright-info"><a href="https://pigsun.github.io">John Doe</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>Link: </span><span class="post-copyright-info"><a href="https://pigsun.github.io/2026/02/20/java/">https://pigsun.github.io/2026/02/20/java/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>Copyright Notice: </span><span class="post-copyright-info">All articles on this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless otherwise stated.</span></div></div><div class="tag_share"><div class="post-share"><div class="social-share" data-image="/img/butterfly-icon.png" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/2026/02/21/%E7%A7%92%E6%9D%80%E7%B3%BB%E7%BB%9F30%E5%A4%A9%E5%BC%80%E5%8F%91%E8%AE%A1%E5%88%92/" title="秒杀系统30天开发计划"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info"><div class="info-1"><div class="info-item-1">Previous</div><div class="info-item-2">秒杀系统30天开发计划</div></div><div class="info-2"><div class="info-item-1">秒杀系统30天开发计划📋 计划评估与优化建议✅ 计划的优点 时间分配合理 - 30天分5个阶段，循序渐进 目标明确 - 每个阶段都有清晰的产出 技术栈经典 - SpringBoot + Redis + MySQL 是标配 重点突出 - 聚焦并发控制和性能优化  ⚠️ 需要注意的点 Day 1-5 基础回炉可能时间不够 - 建议压缩到3天 缺少分布式锁的具体实现 - 这是面试高频点 消息队列削峰 - 建议加入RabbitMQ&#x2F;Kafka 监控和可观测性 - 可以加入简单的监控   🎯 优化后的30天计划阶段1：基础回炉（Day 1~3） ⏰压缩到3天，更聚焦    天数 核心任务 具体内容    Day 1 Java核心 HashMap、ConcurrentHashMap、线程安全集合   Day 2 并发基础 synchronized、volatile、CAS、AQS原理   Day 3 线程池 ThreadPoolExecutor参数、拒绝策略、手写简单线程池   每天额外：1-2道算法题（链表、数组）  阶段2：项目框架搭建（Day 4~8） 🏗️目标：完整的...</div></div></div></a><a class="pagination-related" href="/2026/02/20/diary/" title="diary"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">Next</div><div class="info-item-2">diary</div></div><div class="info-2"><div class="info-item-1">从零搭建个人博客：Hexo + GitHub Pages 的实践与思考一、为什么选择 Hexo？我最终选择了 Hexo + GitHub Pages 作为博客方案，核心原因有三：  成本为 0（GitHub Pages 免费托管） 纯静态部署，无服务器维护压力 Markdown 驱动，专注内容本身  从技术本质来看，这是一个典型的 SSG（Static Site Generator）架构流程： 123456789Markdown 文件      ↓Hexo 渲染引擎      ↓主题模板渲染      ↓生成静态 HTML      ↓GitHub Pages 托管  Hexo 本质是一个基于 Node.js 的静态网站生成器。 Markdown 文件经过渲染引擎转换为 HTML，再通过主题模板进行结构化封装，最终生成完整网页。 这次搭建让我第一次真正理解了“静态网站生成”的底层逻辑。 二、搭建过程中遇到的关键问题1️⃣ Node 与 Hexo 版本兼容问题问题表现安装 Hexo CLI 后执行命令报错，依赖冲突无法正常运行。 根本原因Hexo 某些依赖对 Node 版本存在要求...</div></div></div></a></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">John Doe</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Contents</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%B1%BB%E5%8F%98%E9%87%8F"><span class="toc-number">1.</span> <span class="toc-text">类变量</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%96%B9%E6%B3%95%E5%8C%BA%E3%80%81%E6%B0%B8%E4%B9%85%E4%BB%A3%E3%80%81%E5%85%83%E7%A9%BA%E9%97%B4%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="toc-number">2.</span> <span class="toc-text">方法区、永久代、元空间的区别</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%BC%82%E5%B8%B8"><span class="toc-number">3.</span> <span class="toc-text">异常</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A4%84%E7%90%86NullPointerException"><span class="toc-number">3.1.</span> <span class="toc-text">处理NullPointerException</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%96%AD%E8%A8%80"><span class="toc-number">3.2.</span> <span class="toc-text">断言</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#jdk8%E5%92%8Cjdk9%E6%96%B0%E7%89%B9%E6%80%A7"><span class="toc-number">4.</span> <span class="toc-text">jdk8和jdk9新特性</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8F%8D%E5%B0%84"><span class="toc-number">5.</span> <span class="toc-text">反射</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%8D%E5%B0%84%E6%98%AF%E6%A1%86%E6%9E%B6%E8%AE%BE%E8%AE%A1%E7%9A%84%E7%81%B5%E9%AD%82"><span class="toc-number">5.1.</span> <span class="toc-text">反射是框架设计的灵魂</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Maven"><span class="toc-number">6.</span> <span class="toc-text">Maven</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E9%85%8D%E7%BD%AE%E6%9C%AC%E5%B7%A5%E7%A8%8B%E5%9D%90%E6%A0%87%E4%BF%A1%E6%81%AF"><span class="toc-number">6.1.</span> <span class="toc-text">如何配置本工程坐标信息</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BE%9D%E8%B5%96%E4%BC%A0%E9%80%92"><span class="toc-number">6.2.</span> <span class="toc-text">依赖传递</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%81%9A%E5%90%88%E5%B7%A5%E7%A8%8B"><span class="toc-number">6.3.</span> <span class="toc-text">聚合工程</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#maven%E7%BB%A7%E6%89%BF"><span class="toc-number">6.4.</span> <span class="toc-text">maven继承</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%89%88%E6%9C%AC%E7%BB%9F%E4%B8%80%E7%AE%A1%E7%90%86"><span class="toc-number">6.5.</span> <span class="toc-text">版本统一管理</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Spring"><span class="toc-number">7.</span> <span class="toc-text">Spring</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9C%A8resource%E4%B8%AD%E9%80%9A%E8%BF%87xml%E6%96%87%E4%BB%B6%E5%88%9B%E5%BB%BA%E5%AF%B9%E8%B1%A1%E5%8F%8A%E5%85%B6%E5%88%86%E6%9E%90"><span class="toc-number">7.1.</span> <span class="toc-text">在resource中通过xml文件创建对象及其分析</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%86%E6%9E%90"><span class="toc-number">7.1.1.</span> <span class="toc-text">分析</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#postman"><span class="toc-number">8.</span> <span class="toc-text">postman</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AF%B7%E6%B1%82%E5%92%8C%E5%93%8D%E5%BA%94"><span class="toc-number">8.1.</span> <span class="toc-text">请求和响应</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E7%AE%80%E5%8D%95%E5%8F%82%E6%95%B0"><span class="toc-number">8.1.1.</span> <span class="toc-text">1 简单参数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E5%AE%9E%E4%BD%93%E5%8F%82%E6%95%B0"><span class="toc-number">8.1.2.</span> <span class="toc-text">2 实体参数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3%E6%95%B0%E7%BB%84%E9%9B%86%E5%90%88%E5%8F%82%E6%95%B0"><span class="toc-number">8.1.3.</span> <span class="toc-text">3数组集合参数</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#JavaSE"><span class="toc-number">9.</span> <span class="toc-text">JavaSE</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Java%E7%9A%84char%E9%87%87%E7%94%A8Unicode%E7%BC%96%E7%A0%81%E8%A1%A8%EF%BC%88%E4%B8%8D%E6%98%AFASCII%E7%BC%96%E7%A0%81%EF%BC%81%EF%BC%89"><span class="toc-number">9.1.</span> <span class="toc-text">Java的char采用Unicode编码表（不是ASCII编码！）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2"><span class="toc-number">9.2.</span> <span class="toc-text">数据类型转换</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9A%90%E5%BD%A2%E8%BD%AC%E6%8D%A2"><span class="toc-number">9.2.1.</span> <span class="toc-text">隐形转换</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%98%BE%E6%80%A7%E8%BD%AC%E6%8D%A2"><span class="toc-number">9.2.2.</span> <span class="toc-text">显性转换</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%87%AA%E5%8A%A8%E6%8F%90%E5%8D%87"><span class="toc-number">9.3.</span> <span class="toc-text">数据类型自动提升</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%B1%BB%E5%8A%A0%E8%BD%BD%E6%9C%BA%E5%88%B6"><span class="toc-number">9.4.</span> <span class="toc-text">类加载机制</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B0%81%E8%A3%85%E7%BB%A7%E6%89%BF%E5%A4%9A%E6%80%81"><span class="toc-number">9.5.</span> <span class="toc-text">封装继承多态</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B0%81%E8%A3%85"><span class="toc-number">9.5.1.</span> <span class="toc-text">封装</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%A7%E6%89%BF"><span class="toc-number">9.5.2.</span> <span class="toc-text">继承</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%85%B3%E9%94%AE%E8%A6%81%E7%82%B9"><span class="toc-number">9.5.2.1.</span> <span class="toc-text">关键要点</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%9A%E6%80%81"><span class="toc-number">9.5.3.</span> <span class="toc-text">多态</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AE%9E%E7%8E%B0%E5%A4%9A%E6%80%81%E7%9A%84%E4%B8%89%E4%B8%AA%E5%BF%85%E8%A6%81%E6%9D%A1%E4%BB%B6"><span class="toc-number">9.5.3.1.</span> <span class="toc-text">实现多态的三个必要条件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%85%B3%E9%94%AE%E8%A6%81%E7%82%B9-1"><span class="toc-number">9.5.3.2.</span> <span class="toc-text">关键要点</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-number">9.5.4.</span> <span class="toc-text">总结</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#final"><span class="toc-number">9.6.</span> <span class="toc-text">final</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E4%BF%AE%E9%A5%B0%E5%8F%98%E9%87%8F-final-variable"><span class="toc-number">9.6.1.</span> <span class="toc-text">1. 修饰变量 (final variable)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E4%BF%AE%E9%A5%B0%E6%96%B9%E6%B3%95-final-method"><span class="toc-number">9.6.2.</span> <span class="toc-text">2. 修饰方法 (final method)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E4%BF%AE%E9%A5%B0%E7%B1%BB-final-class"><span class="toc-number">9.6.3.</span> <span class="toc-text">3. 修饰类 (final class)</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8A%BD%E8%B1%A1%E7%B1%BB%EF%BC%88Abstract-Class%EF%BC%89"><span class="toc-number">9.7.</span> <span class="toc-text">抽象类（Abstract Class）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%B3%E9%94%AE%E7%89%B9%E5%BE%81"><span class="toc-number">9.7.1.</span> <span class="toc-text">关键特征</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8E%A5%E5%8F%A3-Interface"><span class="toc-number">9.8.</span> <span class="toc-text">接口 (Interface)</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%B3%E9%94%AE%E7%89%B9%E5%BE%81-1"><span class="toc-number">9.8.1.</span> <span class="toc-text">关键特征</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%99%E5%BE%88%E9%87%8D%E8%A6%81%EF%BC%9F"><span class="toc-number">9.8.2.</span> <span class="toc-text">为什么这很重要？</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8C%BF%E5%90%8D%E5%86%85%E9%83%A8%E7%B1%BB"><span class="toc-number">9.9.</span> <span class="toc-text">匿名内部类</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8C%85%E8%A3%85%E7%B1%BB"><span class="toc-number">9.10.</span> <span class="toc-text">包装类</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9C%80%E8%A6%81%E5%8C%85%E8%A3%85%E7%B1%BB%EF%BC%9F"><span class="toc-number">9.10.1.</span> <span class="toc-text">为什么需要包装类？</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Java%E5%BC%82%E5%B8%B8%E6%9C%BA%E5%88%B6"><span class="toc-number">9.11.</span> <span class="toc-text">Java异常机制</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BC%82%E5%B8%B8%EF%BC%88Exception%EF%BC%89"><span class="toc-number">9.11.1.</span> <span class="toc-text">异常（Exception）</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E8%BF%90%E8%A1%8C%E6%97%B6%E5%BC%82%E5%B8%B8"><span class="toc-number">9.11.1.1.</span> <span class="toc-text">运行时异常</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E7%BC%96%E8%AF%91%E6%97%B6%E5%BC%82%E5%B8%B8"><span class="toc-number">9.11.1.2.</span> <span class="toc-text">编译时异常</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%94%99%E8%AF%AF%EF%BC%88Error%EF%BC%89"><span class="toc-number">9.11.2.</span> <span class="toc-text">错误（Error）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86"><span class="toc-number">9.11.3.</span> <span class="toc-text">异常处理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E5%BC%82%E5%B8%B8"><span class="toc-number">9.11.4.</span> <span class="toc-text">自定义异常</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%9A%E9%87%8D%E5%BC%82%E5%B8%B8%E6%8D%95%E8%8E%B7"><span class="toc-number">9.11.5.</span> <span class="toc-text">多重异常捕获</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B3%9B%E5%9E%8B"><span class="toc-number">9.12.</span> <span class="toc-text">泛型</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B1%BB%E5%9E%8B%E6%93%A6%E9%99%A4-Type-Erasure"><span class="toc-number">9.12.1.</span> <span class="toc-text">类型擦除 (Type Erasure)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B3%9B%E5%9E%8B%E7%9A%84%E4%BD%BF%E7%94%A8%E7%BB%86%E8%8A%82"><span class="toc-number">9.12.2.</span> <span class="toc-text">泛型的使用细节</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B3%9B%E5%9E%8B%E7%9A%84%E8%BE%B9%E7%95%8C-Bounds"><span class="toc-number">9.12.3.</span> <span class="toc-text">泛型的边界 (Bounds)</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-%E4%B8%8A%E7%95%8C-extends"><span class="toc-number">9.12.3.1.</span> <span class="toc-text">1. 上界 (extends)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-%E4%B8%8B%E7%95%8C-super"><span class="toc-number">9.12.3.2.</span> <span class="toc-text">2. 下界 (super)</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B3%9B%E5%9E%8B%E4%B8%8E%E5%A4%9A%E6%80%81%EF%BC%9A%E6%A1%A5%E6%8E%A5%E6%96%B9%E6%B3%95-Bridge-Methods"><span class="toc-number">9.12.4.</span> <span class="toc-text">泛型与多态：桥接方法 (Bridge Methods)</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#I-O%E6%B5%81"><span class="toc-number">9.13.</span> <span class="toc-text">I&#x2F;O流</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B0%8F%E7%BB%93%EF%BC%9A"><span class="toc-number">9.13.1.</span> <span class="toc-text">小结：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9F%BA%E7%A1%80%EF%BC%9A%E6%96%87%E4%BB%B6%E6%B5%81-File-Streams"><span class="toc-number">9.13.2.</span> <span class="toc-text">基础：文件流 (File Streams)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BD%AC%E6%8D%A2%E6%B5%81-Conversion-Streams-%E8%A7%A3%E5%86%B3%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98"><span class="toc-number">9.13.3.</span> <span class="toc-text">转换流 (Conversion Streams) - 解决编码问题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BC%93%E5%86%B2%E6%B5%81-Buffered-Streams-%E6%8F%90%E5%8D%87%E6%80%A7%E8%83%BD"><span class="toc-number">9.13.4.</span> <span class="toc-text">缓冲流 (Buffered Streams) - 提升性能</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E6%B5%81-Data-Streams-%E5%AD%98%E5%82%A8%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B"><span class="toc-number">9.13.5.</span> <span class="toc-text">数据流 (Data Streams) - 存储基本数据类型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AF%B9%E8%B1%A1%E6%B5%81-Object-Streams-%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%8E%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96"><span class="toc-number">9.13.6.</span> <span class="toc-text">对象流 (Object Streams) - 序列化与反序列化</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%89%93%E5%8D%B0%E6%B5%81-Print-Streams-%E4%BE%BF%E6%8D%B7%E8%BE%93%E5%87%BA"><span class="toc-number">9.13.7.</span> <span class="toc-text">打印流 (Print Streams) - 便捷输出</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#try-with-resources"><span class="toc-number">9.13.8.</span> <span class="toc-text">try-with-resources</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%87%AA%E5%8A%A8%E5%88%9B%E5%BB%BA%E6%9C%BA%E5%88%B6"><span class="toc-number">9.13.9.</span> <span class="toc-text">自动创建机制</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93-1"><span class="toc-number">9.13.10.</span> <span class="toc-text">总结</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Java%E5%A4%9A%E7%BA%BF%E7%A8%8B"><span class="toc-number">9.14.</span> <span class="toc-text">Java多线程</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BA%BF%E7%A8%8B%E9%94%81%E5%92%8C%E7%BA%BF%E7%A8%8B%E5%90%8C%E6%AD%A5"><span class="toc-number">9.15.</span> <span class="toc-text">线程锁和线程同步</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#ThreadLocal%E7%B1%BB"><span class="toc-number">9.15.1.</span> <span class="toc-text">ThreadLocal类</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%9D%A5%E5%88%9B%E5%BB%BA%E5%B7%A5%E4%BD%9C%E5%86%85%E5%AD%98%E4%B8%AD%E7%9A%84%E5%8F%98%E9%87%8F%EF%BC%8C%E5%AE%83%E5%B0%86%E6%88%91%E4%BB%AC%E7%9A%84%E5%8F%98%E9%87%8F%E5%80%BC%E5%AD%98%E5%82%A8%E5%9C%A8%E5%86%85%E9%83%A8%EF%BC%88%E5%8F%AA%E8%83%BD%E5%AD%98%E5%82%A8%E4%B8%80%E4%B8%AA%E5%8F%98%E9%87%8F%EF%BC%89%EF%BC%8C%E4%B8%8D%E5%90%8C%E7%9A%84%E5%8F%98%E9%87%8F%E8%AE%BF%E9%97%AE%E5%88%B0ThreadLocal%E5%AF%B9%E8%B1%A1%E6%97%B6%EF%BC%8C%E9%83%BD%E5%8F%AA%E8%83%BD%E8%8E%B7%E5%8F%96%E5%88%B0%E8%87%AA%E5%B7%B1%E7%BA%BF%E7%A8%8B%E6%89%80%E5%B1%9E%E7%9A%84%E5%8F%98%E9%87%8F%E3%80%82%E3%80%90%E6%AF%8F%E4%B8%AA%E7%BA%BF%E7%A8%8B%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%86%85%E5%AD%98%E7%A9%BA%E9%97%B4%E4%B8%8D%E5%90%8C%EF%BC%8C%E6%89%80%E4%BB%A5%E7%BA%BF%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9B%B8%E4%BA%92%E7%8B%AC%E7%AB%8B%EF%BC%8C%E4%BA%92%E4%B8%8D%E7%9B%B8%E5%85%B3%E3%80%91"><span class="toc-number">9.15.1.1.</span> <span class="toc-text">来创建工作内存中的变量，它将我们的变量值存储在内部（只能存储一个变量），不同的变量访问到ThreadLocal对象时，都只能获取到自己线程所属的变量。【每个线程的工作内存空间不同，所以线程之间相互独立，互不相关】</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#SaaS%E7%9F%AD%E9%93%BE%E6%8E%A5%E7%B3%BB%E7%BB%9F"><span class="toc-number">10.</span> <span class="toc-text">SaaS短链接系统</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A6%81%E7%82%B9%E8%AE%B0%E5%BD%95%EF%BC%9A"><span class="toc-number">10.1.</span> <span class="toc-text">要点记录：</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-Autowired-%E6%B3%A8%E8%A7%A3"><span class="toc-number">10.1.1.</span> <span class="toc-text">*1.** @Autowired **注解*</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E7%A4%BA%E4%BE%8B"><span class="toc-number">10.1.1.1.</span> <span class="toc-text">*代码示例*</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86"><span class="toc-number">10.1.1.2.</span> <span class="toc-text">*工作原理*</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BC%98%E7%82%B9"><span class="toc-number">10.1.1.3.</span> <span class="toc-text">*优点*</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BC%BA%E7%82%B9"><span class="toc-number">10.1.1.4.</span> <span class="toc-text">*缺点*</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5"><span class="toc-number">10.1.1.5.</span> <span class="toc-text">*最佳实践*</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-Resource-%E6%B3%A8%E8%A7%A3"><span class="toc-number">10.1.2.</span> <span class="toc-text">*2.** @Resource **注解*</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E7%A4%BA%E4%BE%8B-1"><span class="toc-number">10.1.2.1.</span> <span class="toc-text">*代码示例*</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86-1"><span class="toc-number">10.1.2.2.</span> <span class="toc-text">*工作原理*</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BC%98%E7%82%B9-1"><span class="toc-number">10.1.2.3.</span> <span class="toc-text">*优点*</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BC%BA%E7%82%B9-1"><span class="toc-number">10.1.2.4.</span> <span class="toc-text">*缺点*</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-1"><span class="toc-number">10.1.2.5.</span> <span class="toc-text">*最佳实践*</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-RequiredArgsConstructor-%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0%E6%B3%A8%E5%85%A5"><span class="toc-number">10.1.3.</span> <span class="toc-text">*3.** @RequiredArgsConstructor **构造函数注入*</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E7%A4%BA%E4%BE%8B-2"><span class="toc-number">10.1.3.1.</span> <span class="toc-text">*代码示例*</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86-2"><span class="toc-number">10.1.3.2.</span> <span class="toc-text">*工作原理*</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BC%98%E7%82%B9-2"><span class="toc-number">10.1.3.3.</span> <span class="toc-text">*优点*</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BC%BA%E7%82%B9-2"><span class="toc-number">10.1.3.4.</span> <span class="toc-text">*缺点*</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-2"><span class="toc-number">10.1.3.5.</span> <span class="toc-text">*最佳实践*</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93%E5%AF%B9%E6%AF%94%E8%A1%A8"><span class="toc-number">10.1.4.</span> <span class="toc-text">*总结对比表*</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%93%E8%AE%BA"><span class="toc-number">10.1.5.</span> <span class="toc-text">*结论*</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A6%81%E7%82%B9%E8%AE%B0%E5%BD%95"><span class="toc-number">10.2.</span> <span class="toc-text">要点记录</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#SaaS-%E7%9F%AD%E9%93%BE%E6%8E%A5%E7%B3%BB%E7%BB%9F-%E2%80%94-%E7%AE%80%E5%8E%86%E6%92%B0%E5%86%99-%E9%9D%A2%E8%AF%95%E9%97%AE%E7%AD%94%E6%96%87%E6%A1%A3"><span class="toc-number">11.</span> <span class="toc-text">SaaS 短链接系统 — 简历撰写 &amp; 面试问答文档</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E7%AE%80%E5%8E%86%E9%A1%B9%E7%9B%AE%E6%8F%8F%E8%BF%B0%EF%BC%88%E7%9B%B4%E6%8E%A5%E5%A4%8D%E5%88%B6%E4%BD%BF%E7%94%A8%EF%BC%89"><span class="toc-number">11.1.</span> <span class="toc-text">一、简历项目描述（直接复制使用）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%86%99%E6%B3%95%E4%B8%80%EF%BC%9A%E7%B2%BE%E7%AE%80%E7%89%88%EF%BC%88%E9%80%82%E5%90%88%E7%AE%80%E5%8E%86%E7%A9%BA%E9%97%B4%E6%9C%89%E9%99%90%EF%BC%89"><span class="toc-number">11.1.1.</span> <span class="toc-text">写法一：精简版（适合简历空间有限）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%86%99%E6%B3%95%E4%BA%8C%EF%BC%9A%E8%AF%A6%E7%BB%86%E7%89%88%EF%BC%88%E9%80%82%E5%90%88%E7%AE%80%E5%8E%86%E6%9C%89%E5%85%85%E8%B6%B3%E7%A9%BA%E9%97%B4%EF%BC%89"><span class="toc-number">11.1.2.</span> <span class="toc-text">写法二：详细版（适合简历有充足空间）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98%E4%B8%8E%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88"><span class="toc-number">11.2.</span> <span class="toc-text">二、面试问题与参考答案</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A8%A1%E5%9D%97-A%EF%BC%9A%E7%9F%AD%E9%93%BE%E6%8E%A5%E8%B7%B3%E8%BD%AC-%E7%BC%93%E5%AD%98%E8%AE%BE%E8%AE%A1"><span class="toc-number">11.2.1.</span> <span class="toc-text">模块 A：短链接跳转 &amp; 缓存设计</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A8%A1%E5%9D%97-B%EF%BC%9A%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97-%E5%BC%82%E6%AD%A5%E7%BB%9F%E8%AE%A1"><span class="toc-number">11.2.2.</span> <span class="toc-text">模块 B：消息队列 &amp; 异步统计</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A8%A1%E5%9D%97-C%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%BA%93%E5%88%86%E7%89%87"><span class="toc-number">11.2.3.</span> <span class="toc-text">模块 C：数据库分片</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A8%A1%E5%9D%97-D%EF%BC%9A%E7%BD%91%E5%85%B3-%E8%AE%A4%E8%AF%81"><span class="toc-number">11.2.4.</span> <span class="toc-text">模块 D：网关 &amp; 认证</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A8%A1%E5%9D%97-E%EF%BC%9A%E5%88%86%E7%BB%84%E7%AE%A1%E7%90%86-%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C"><span class="toc-number">11.2.5.</span> <span class="toc-text">模块 E：分组管理 &amp; 用户注册</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A8%A1%E5%9D%97-F%EF%BC%9ASpring-Cloud-%E5%BE%AE%E6%9C%8D%E5%8A%A1"><span class="toc-number">11.2.6.</span> <span class="toc-text">模块 F：Spring Cloud 微服务</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A8%A1%E5%9D%97-G%EF%BC%9A%E9%80%9A%E7%94%A8-Java-Spring-%E5%9F%BA%E7%A1%80%EF%BC%88%E7%BB%93%E5%90%88%E9%A1%B9%E7%9B%AE%E5%9B%9E%E7%AD%94%EF%BC%89"><span class="toc-number">11.2.7.</span> <span class="toc-text">模块 G：通用 Java &amp; Spring 基础（结合项目回答）</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#SaaS-%E7%9F%AD%E9%93%BE%E6%8E%A5%E7%B3%BB%E7%BB%9F-%E2%80%94-%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97%E5%85%A8%E9%87%8F%E5%88%86%E6%9E%90%E6%96%87%E6%A1%A3"><span class="toc-number">12.</span> <span class="toc-text">SaaS 短链接系统 — 功能模块全量分析文档</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%AE%E5%BD%95"><span class="toc-number">12.1.</span> <span class="toc-text">目录</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E6%95%B4%E4%BD%93%E6%9E%B6%E6%9E%84%E6%A6%82%E8%BF%B0"><span class="toc-number">12.2.</span> <span class="toc-text">1. 整体架构概述</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E6%A8%A1%E5%9D%97%E4%B8%80%EF%BC%9A%E7%BD%91%E5%85%B3%E5%B1%82%EF%BC%88gateway%EF%BC%89"><span class="toc-number">12.3.</span> <span class="toc-text">2. 模块一：网关层（gateway）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-1-%E5%8A%9F%E8%83%BD%E5%AE%9A%E4%BD%8D"><span class="toc-number">12.3.1.</span> <span class="toc-text">2.1 功能定位</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-2-%E8%B7%AF%E7%94%B1%E9%85%8D%E7%BD%AE"><span class="toc-number">12.3.2.</span> <span class="toc-text">2.2 路由配置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-3-Token-%E6%A0%A1%E9%AA%8C%E6%B5%81%E7%A8%8B"><span class="toc-number">12.3.3.</span> <span class="toc-text">2.3 Token 校验流程</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E6%A8%A1%E5%9D%97%E4%BA%8C%EF%BC%9A%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86%EF%BC%88admin-%E7%94%A8%E6%88%B7%EF%BC%89"><span class="toc-number">12.4.</span> <span class="toc-text">3. 模块二：用户管理（admin - 用户）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-%E5%8A%9F%E8%83%BD%EF%BC%9A%E6%A3%80%E6%9F%A5%E7%94%A8%E6%88%B7%E5%90%8D%E6%98%AF%E5%90%A6%E5%8F%AF%E7%94%A8"><span class="toc-number">12.4.1.</span> <span class="toc-text">3.1 功能：检查用户名是否可用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-2-%E5%8A%9F%E8%83%BD%EF%BC%9A%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C"><span class="toc-number">12.4.2.</span> <span class="toc-text">3.2 功能：用户注册</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-3-%E5%8A%9F%E8%83%BD%EF%BC%9A%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95"><span class="toc-number">12.4.3.</span> <span class="toc-text">3.3 功能：用户登录</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-4-%E5%8A%9F%E8%83%BD%EF%BC%9A%E6%A3%80%E6%9F%A5%E7%99%BB%E5%BD%95%E7%8A%B6%E6%80%81"><span class="toc-number">12.4.4.</span> <span class="toc-text">3.4 功能：检查登录状态</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-5-%E5%8A%9F%E8%83%BD%EF%BC%9A%E9%80%80%E5%87%BA%E7%99%BB%E5%BD%95"><span class="toc-number">12.4.5.</span> <span class="toc-text">3.5 功能：退出登录</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-6-%E5%8A%9F%E8%83%BD%EF%BC%9A%E4%BF%AE%E6%94%B9%E7%94%A8%E6%88%B7%E4%BF%A1%E6%81%AF"><span class="toc-number">12.4.6.</span> <span class="toc-text">3.6 功能：修改用户信息</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-7-%E5%8A%9F%E8%83%BD%EF%BC%9A%E6%9F%A5%E8%AF%A2%E7%94%A8%E6%88%B7%E4%BF%A1%E6%81%AF"><span class="toc-number">12.4.7.</span> <span class="toc-text">3.7 功能：查询用户信息</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E6%A8%A1%E5%9D%97%E4%B8%89%EF%BC%9A%E7%9F%AD%E9%93%BE%E6%8E%A5%E5%88%86%E7%BB%84%E7%AE%A1%E7%90%86%EF%BC%88admin-%E5%88%86%E7%BB%84%EF%BC%89"><span class="toc-number">12.5.</span> <span class="toc-text">4. 模块三：短链接分组管理（admin - 分组）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#4-1-%E5%8A%9F%E8%83%BD%EF%BC%9A%E6%96%B0%E5%A2%9E%E5%88%86%E7%BB%84"><span class="toc-number">12.5.1.</span> <span class="toc-text">4.1 功能：新增分组</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-2-%E5%8A%9F%E8%83%BD%EF%BC%9A%E6%9F%A5%E8%AF%A2%E5%88%86%E7%BB%84%E5%88%97%E8%A1%A8"><span class="toc-number">12.5.2.</span> <span class="toc-text">4.2 功能：查询分组列表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-3-%E5%8A%9F%E8%83%BD%EF%BC%9A%E4%BF%AE%E6%94%B9%E5%88%86%E7%BB%84%E5%90%8D%E7%A7%B0"><span class="toc-number">12.5.3.</span> <span class="toc-text">4.3 功能：修改分组名称</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-4-%E5%8A%9F%E8%83%BD%EF%BC%9A%E5%88%A0%E9%99%A4%E5%88%86%E7%BB%84"><span class="toc-number">12.5.4.</span> <span class="toc-text">4.4 功能：删除分组</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-5-%E5%8A%9F%E8%83%BD%EF%BC%9A%E5%88%86%E7%BB%84%E6%8E%92%E5%BA%8F"><span class="toc-number">12.5.5.</span> <span class="toc-text">4.5 功能：分组排序</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E6%A8%A1%E5%9D%97%E5%9B%9B%EF%BC%9A%E7%9F%AD%E9%93%BE%E6%8E%A5%E6%A0%B8%E5%BF%83%E7%AE%A1%E7%90%86%EF%BC%88admin-project%EF%BC%89"><span class="toc-number">12.6.</span> <span class="toc-text">5. 模块四：短链接核心管理（admin + project）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#5-1-%E5%8A%9F%E8%83%BD%EF%BC%9A%E5%88%9B%E5%BB%BA%E7%9F%AD%E9%93%BE%E6%8E%A5"><span class="toc-number">12.6.1.</span> <span class="toc-text">5.1 功能：创建短链接</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-2-%E5%8A%9F%E8%83%BD%EF%BC%9A%E9%80%9A%E8%BF%87%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81%E5%88%9B%E5%BB%BA%E7%9F%AD%E9%93%BE%E6%8E%A5%EF%BC%88%E5%A4%87%E7%94%A8%E6%96%B9%E6%A1%88%EF%BC%89"><span class="toc-number">12.6.2.</span> <span class="toc-text">5.2 功能：通过分布式锁创建短链接（备用方案）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-3-%E5%8A%9F%E8%83%BD%EF%BC%9A%E6%89%B9%E9%87%8F%E5%88%9B%E5%BB%BA%E7%9F%AD%E9%93%BE%E6%8E%A5"><span class="toc-number">12.6.3.</span> <span class="toc-text">5.3 功能：批量创建短链接</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-4-%E5%8A%9F%E8%83%BD%EF%BC%9A%E4%BF%AE%E6%94%B9%E7%9F%AD%E9%93%BE%E6%8E%A5"><span class="toc-number">12.6.4.</span> <span class="toc-text">5.4 功能：修改短链接</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-5-%E5%8A%9F%E8%83%BD%EF%BC%9A%E5%88%86%E9%A1%B5%E6%9F%A5%E8%AF%A2%E7%9F%AD%E9%93%BE%E6%8E%A5"><span class="toc-number">12.6.5.</span> <span class="toc-text">5.5 功能：分页查询短链接</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-6-%E5%8A%9F%E8%83%BD%EF%BC%9A%E8%8E%B7%E5%8F%96-URL-%E7%BD%91%E7%AB%99%E6%A0%87%E9%A2%98"><span class="toc-number">12.6.6.</span> <span class="toc-text">5.6 功能：获取 URL 网站标题</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E6%A8%A1%E5%9D%97%E4%BA%94%EF%BC%9A%E7%9F%AD%E9%93%BE%E6%8E%A5%E8%B7%B3%E8%BD%AC%EF%BC%88project-%E8%B7%B3%E8%BD%AC%EF%BC%89"><span class="toc-number">12.7.</span> <span class="toc-text">6. 模块五：短链接跳转（project - 跳转）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#6-1-%E5%8A%9F%E8%83%BD%EF%BC%9A%E7%9F%AD%E9%93%BE%E6%8E%A5%E8%B7%B3%E8%BD%AC%E5%8E%9F%E5%A7%8B%E9%93%BE%E6%8E%A5"><span class="toc-number">12.7.1.</span> <span class="toc-text">6.1 功能：短链接跳转原始链接</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-%E6%A8%A1%E5%9D%97%E5%85%AD%EF%BC%9A%E5%9B%9E%E6%94%B6%E7%AB%99%E7%AE%A1%E7%90%86%EF%BC%88admin-project%EF%BC%89"><span class="toc-number">12.8.</span> <span class="toc-text">7. 模块六：回收站管理（admin + project）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#7-1-%E5%8A%9F%E8%83%BD%EF%BC%9A%E7%A7%BB%E5%85%A5%E5%9B%9E%E6%94%B6%E7%AB%99"><span class="toc-number">12.8.1.</span> <span class="toc-text">7.1 功能：移入回收站</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7-2-%E5%8A%9F%E8%83%BD%EF%BC%9A%E5%88%86%E9%A1%B5%E6%9F%A5%E8%AF%A2%E5%9B%9E%E6%94%B6%E7%AB%99"><span class="toc-number">12.8.2.</span> <span class="toc-text">7.2 功能：分页查询回收站</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7-3-%E5%8A%9F%E8%83%BD%EF%BC%9A%E6%81%A2%E5%A4%8D%E7%9F%AD%E9%93%BE%E6%8E%A5"><span class="toc-number">12.8.3.</span> <span class="toc-text">7.3 功能：恢复短链接</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7-4-%E5%8A%9F%E8%83%BD%EF%BC%9A%E6%B0%B8%E4%B9%85%E5%88%A0%E9%99%A4%E7%9F%AD%E9%93%BE%E6%8E%A5"><span class="toc-number">12.8.4.</span> <span class="toc-text">7.4 功能：永久删除短链接</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#8-%E6%A8%A1%E5%9D%97%E4%B8%83%EF%BC%9A%E6%95%B0%E6%8D%AE%E7%BB%9F%E8%AE%A1%E4%B8%8E%E7%9B%91%E6%8E%A7%EF%BC%88admin-project%EF%BC%89"><span class="toc-number">12.9.</span> <span class="toc-text">8. 模块七：数据统计与监控（admin + project）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#8-1-%E5%8A%9F%E8%83%BD%EF%BC%9A%E6%9F%A5%E8%AF%A2%E5%8D%95%E4%B8%AA%E7%9F%AD%E9%93%BE%E6%8E%A5%E7%BB%9F%E8%AE%A1%E6%95%B0%E6%8D%AE"><span class="toc-number">12.9.1.</span> <span class="toc-text">8.1 功能：查询单个短链接统计数据</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#8-2-%E5%8A%9F%E8%83%BD%EF%BC%9A%E6%9F%A5%E8%AF%A2%E5%88%86%E7%BB%84%E7%BB%9F%E8%AE%A1%E6%95%B0%E6%8D%AE"><span class="toc-number">12.9.2.</span> <span class="toc-text">8.2 功能：查询分组统计数据</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#8-3-%E5%8A%9F%E8%83%BD%EF%BC%9A%E6%9F%A5%E8%AF%A2%E5%8D%95%E4%B8%AA%E7%9F%AD%E9%93%BE%E6%8E%A5%E8%AE%BF%E9%97%AE%E8%AE%B0%E5%BD%95%EF%BC%88%E5%88%86%E9%A1%B5%EF%BC%89"><span class="toc-number">12.9.3.</span> <span class="toc-text">8.3 功能：查询单个短链接访问记录（分页）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#8-4-%E5%8A%9F%E8%83%BD%EF%BC%9A%E6%9F%A5%E8%AF%A2%E5%88%86%E7%BB%84%E8%AE%BF%E9%97%AE%E8%AE%B0%E5%BD%95%EF%BC%88%E5%88%86%E9%A1%B5%EF%BC%89"><span class="toc-number">12.9.4.</span> <span class="toc-text">8.4 功能：查询分组访问记录（分页）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#9-%E6%A8%A1%E5%9D%97%E5%85%AB%EF%BC%9A%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97%E4%B8%8E%E7%BB%9F%E8%AE%A1%E5%BC%82%E6%AD%A5%E5%86%99%E5%85%A5"><span class="toc-number">12.10.</span> <span class="toc-text">9. 模块八：消息队列与统计异步写入</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#9-1-%E6%9E%B6%E6%9E%84%E8%AF%B4%E6%98%8E"><span class="toc-number">12.10.1.</span> <span class="toc-text">9.1 架构说明</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#9-2-%E7%94%9F%E4%BA%A7%E8%80%85%EF%BC%9AShortLinkStatsSaveProducer"><span class="toc-number">12.10.2.</span> <span class="toc-text">9.2 生产者：ShortLinkStatsSaveProducer</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#9-3-%E6%B6%88%E8%B4%B9%E8%80%85%EF%BC%9AShortLinkStatsSaveConsumer"><span class="toc-number">12.10.3.</span> <span class="toc-text">9.3 消费者：ShortLinkStatsSaveConsumer</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#9-4-%E6%B6%88%E6%81%AF%E5%B9%82%E7%AD%89%E5%A4%84%E7%90%86%EF%BC%9AMessageQueueIdempotentHandler"><span class="toc-number">12.10.4.</span> <span class="toc-text">9.4 消息幂等处理：MessageQueueIdempotentHandler</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#9-5-%E5%BB%B6%E8%BF%9F%E6%B6%88%E8%B4%B9%E8%80%85%EF%BC%88%E5%B7%B2%E5%BA%9F%E5%BC%83%EF%BC%89%EF%BC%9ADelayShortLinkStatsConsumer"><span class="toc-number">12.10.5.</span> <span class="toc-text">9.5 延迟消费者（已废弃）：DelayShortLinkStatsConsumer</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#10-%E6%A8%A1%E5%9D%97%E4%B9%9D%EF%BC%9A%E5%89%8D%E7%AB%AF%E8%B7%AF%E7%94%B1%E4%B8%8E-Axios-%E6%8B%A6%E6%88%AA%E5%B1%82"><span class="toc-number">12.11.</span> <span class="toc-text">10. 模块九：前端路由与 Axios 拦截层</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#10-1-Axios-%E5%AE%9E%E4%BE%8B%E9%85%8D%E7%BD%AE%EF%BC%88api-axios-js%EF%BC%89"><span class="toc-number">12.11.1.</span> <span class="toc-text">10.1 Axios 实例配置（api&#x2F;axios.js）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#10-2-%E8%B7%AF%E7%94%B1%E5%AE%88%E5%8D%AB%EF%BC%88router-index-js%EF%BC%89"><span class="toc-number">12.11.2.</span> <span class="toc-text">10.2 路由守卫（router&#x2F;index.js）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#10-3-API-%E6%A8%A1%E5%9D%97%E5%88%92%E5%88%86"><span class="toc-number">12.11.3.</span> <span class="toc-text">10.3 API 模块划分</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#11-%E6%95%B0%E6%8D%AE%E5%BA%93%E5%88%86%E7%89%87%E8%AE%BE%E8%AE%A1"><span class="toc-number">12.12.</span> <span class="toc-text">11. 数据库分片设计</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#12-%E5%90%84%E6%A8%A1%E5%9D%97%E5%8D%8F%E8%B0%83%E6%80%BB%E7%BB%93"><span class="toc-number">12.13.</span> <span class="toc-text">12. 各模块协调总结</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#12-1-%E5%AE%8C%E6%95%B4%E8%AF%B7%E6%B1%82%E6%B5%81%E8%BD%AC%E8%B7%AF%E5%BE%84"><span class="toc-number">12.13.1.</span> <span class="toc-text">12.1 完整请求流转路径</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#12-2-%E5%90%84%E6%A8%A1%E5%9D%97%E9%97%B4%E7%9A%84%E4%BE%9D%E8%B5%96%E5%85%B3%E7%B3%BB"><span class="toc-number">12.13.2.</span> <span class="toc-text">12.2 各模块间的依赖关系</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#12-3-%E5%85%B3%E9%94%AE%E8%AE%BE%E8%AE%A1%E5%86%B3%E7%AD%96%E4%B8%8E%E7%B1%BB%E5%8D%8F%E8%B0%83"><span class="toc-number">12.13.3.</span> <span class="toc-text">12.3 关键设计决策与类协调</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Posts</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/02/21/health/" title="健康饮食">健康饮食</a><time datetime="2026-02-21T07:27:25.000Z" title="Created 2026-02-21 15:27:25">2026-02-21</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/02/21/%E7%A7%92%E6%9D%80%E7%B3%BB%E7%BB%9F30%E5%A4%A9%E5%BC%80%E5%8F%91%E8%AE%A1%E5%88%92/" title="秒杀系统30天开发计划">秒杀系统30天开发计划</a><time datetime="2026-02-21T02:11:33.000Z" title="Created 2026-02-21 10:11:33">2026-02-21</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/02/20/diary/" title="diary">diary</a><time datetime="2026-02-20T14:17:33.000Z" title="Created 2026-02-20 22:17:33">2026-02-20</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/02/20/java/" title="Java">Java</a><time datetime="2026-02-20T14:17:33.000Z" title="Created 2026-02-20 22:17:33">2026-02-20</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/02/20/hello-world/" title="Hello World">Hello World</a><time datetime="2026-02-20T09:03:35.602Z" title="Created 2026-02-20 17:03:35">2026-02-20</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 - 2026 By John Doe</span><span class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.1</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.4</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Reading Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Toggle Between Light and Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle Between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Settings"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table of Contents"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="Back to Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.4"></script><script src="/js/main.js?v=5.5.4"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
